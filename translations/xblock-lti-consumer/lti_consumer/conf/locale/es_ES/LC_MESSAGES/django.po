@@ -4,16 +4,15 @@
 # EdX Team <info@edx.org>, 2024.
 # 
 # Translators:
-# Brian Smith, 2024
-# Nathan Robertson, 2024
+# Omar Al-Ithawi <i@omardo.com>, 2025
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
-"PO-Revision-Date: 2023-06-24 01:02+0000\n"
-"Last-Translator: Nathan Robertson, 2024\n"
+"PO-Revision-Date: 2024-12-18 13:44+0000\n"
+"Last-Translator: Omar Al-Ithawi <i@omardo.com>, 2025\n"
 "Language-Team: Spanish (Spain) (https://app.transifex.com/open-edx/teams/6205/es_ES/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -42,21 +41,21 @@ msgstr "Configuración LTI no encontrada."
 msgid "Invalid token signature."
 msgstr "Firma de token no válida."
 
-#: lti_xblock.py:135
+#: lti_xblock.py:134
 msgid "No valid user id found in endpoint URL"
 msgstr ""
 "No se encontró ninguna identificación de usuario válida en la URL del punto "
 "final"
 
-#: lti_xblock.py:148
+#: lti_xblock.py:147
 msgid "Configuration on block"
 msgstr "Configuración en bloque"
 
-#: lti_xblock.py:152
+#: lti_xblock.py:151
 msgid "Database Configuration"
 msgstr "Configuración de base de datos"
 
-#: lti_xblock.py:155
+#: lti_xblock.py:154
 msgid "Reusable Configuration"
 msgstr "Configuración reutilizable"
 
@@ -538,16 +537,16 @@ msgstr ""
 "contener información de identificación personal. Los procesadores son para "
 "todo el sitio; consulte al administrador del sitio si tiene alguna pregunta."
 
-#: lti_xblock.py:686
+#: lti_xblock.py:681
 msgid "Custom Parameters must be a list"
 msgstr "Los parámetros personalizados deben ser una lista"
 
-#: lti_xblock.py:693
+#: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
 msgstr ""
 "Los parámetros personalizados deben ser cadenas en formato &quot;x=y&quot;."
 
-#: lti_xblock.py:703
+#: lti_xblock.py:698
 msgid ""
 "Reusable configuration ID must be set when using external config (Example: "
 "\"x:y\")."
@@ -555,18 +554,18 @@ msgstr ""
 "Se debe establecer un ID de configuración reutilizable cuando se utiliza una"
 " configuración externa (Ejemplo: &quot;x:y&quot;)."
 
-#: lti_xblock.py:726
+#: lti_xblock.py:721
 msgid ""
 "The specified LTI ID is not configured in this course's Advanced Settings."
 msgstr ""
 "El ID de LTI especificado no está configurado en la Configuración avanzada "
 "de este curso."
 
-#: lti_xblock.py:855 lti_xblock.py:1133
+#: lti_xblock.py:850 lti_xblock.py:1128
 msgid "Could not get user data for current request"
 msgstr "No se pudieron obtener datos de usuario para la solicitud actual"
 
-#: lti_xblock.py:882
+#: lti_xblock.py:877
 msgid ""
 "Could not parse LTI passport: {lti_passport!r}. Should be \"id:key:secret\" "
 "string."
@@ -574,12 +573,12 @@ msgstr ""
 "No se pudo analizar el pasaporte LTI: {lti_passport!r}. Debe ser la cadena "
 "&quot;id:key:secret&quot;."
 
-#: lti_xblock.py:900 lti_xblock.py:914 lti_xblock.py:930
+#: lti_xblock.py:895 lti_xblock.py:909 lti_xblock.py:925
 msgid "Could not get user id for current request"
 msgstr ""
 "No se pudo obtener la identificación de usuario para la solicitud actual"
 
-#: lti_xblock.py:1066
+#: lti_xblock.py:1061
 msgid ""
 "Could not parse custom parameter: {custom_parameter!r}. Should be \"x=y\" "
 "string."
@@ -587,7 +586,7 @@ msgstr ""
 "No se pudo analizar el parámetro personalizado: {custom_parameter!r}. Debe "
 "ser una cadena &quot;x=y&quot;."
 
-#: lti_xblock.py:1428
+#: lti_xblock.py:1423
 msgid "[LTI]: Real user not found against anon_id: {}"
 msgstr "[LTI]: Usuario real no encontrado con anon_id: {}"
 

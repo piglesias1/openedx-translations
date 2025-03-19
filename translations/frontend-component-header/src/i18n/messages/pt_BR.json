@@ -32,5 +32,6 @@
   "header.menu.signOut.label": "Sair",
   "header.user.menu.studio": "Estúdio em casa",
   "header.user.menu.maintenance": "Manutenção",
-  "header.label.courseOutline": "Visualizar resumo do curso no Studio"
+  "header.label.courseOutline": "Visualizar resumo do curso no Studio",
+  "header.label.search.nav": "Pesquisar conteúdo"
 }

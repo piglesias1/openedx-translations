@@ -445,6 +445,26 @@ msgstr "(Guarde y continúe la edición para crear un enlace)"
 msgid "Successfully %(status)s %(count)d %(items)s."
 msgstr "Con éxito %(status)s %(count)d %(items)s."
 
+#: apps/course_metadata/algolia_models.py:54
+msgid "Certificates"
+msgstr "Certificados"
+
+#: apps/course_metadata/algolia_models.py:55
+msgid "Pathways to Degrees"
+msgstr "Caminos hacia los títulos"
+
+#: apps/course_metadata/algolia_models.py:58
+msgid "Boot Camps"
+msgstr "Campamentos de entrenamiento"
+
+#: apps/course_metadata/algolia_models.py:65
+msgid "Bachelor’s"
+msgstr "licenciatura"
+
+#: apps/course_metadata/algolia_models.py:66
+msgid "Master’s"
+msgstr "maestría"
+
 #: apps/course_metadata/algolia_models.py:116
 #: apps/course_metadata/algolia_models.py:655
 msgid "Available now"
@@ -597,6 +617,14 @@ msgstr "Acelerado"
 #: apps/course_metadata/choices.py:81
 msgid "Course Stack"
 msgstr "Pila de cursos"
+
+#: apps/course_metadata/choices.py:85
+msgid "Custom B2B Enterprise"
+msgstr "Empresa B2B personalizada"
+
+#: apps/course_metadata/choices.py:86
+msgid "Custom B2C"
+msgstr "B2C personalizado"
 
 #: apps/course_metadata/data_loaders/course_type.py:27
 #, python-brace-format
@@ -1428,6 +1456,18 @@ msgstr ""
 msgid "Estimated number of weeks needed to complete this course run."
 msgstr "Número estimado de semanas necesarias para completar este curso."
 
+#: apps/course_metadata/models.py:2197
+msgid ""
+"A JSON list detailing the available translations for this run. Each element "
+"in the list is a dictionary containing two keys: the language code and the "
+"language label. These entries represent the languages into which the run "
+"content can be translated."
+msgstr ""
+"Una lista JSON que detalla las traducciones disponibles para esta ejecución."
+" Cada elemento de la lista es un diccionario que contiene dos claves: el "
+"código de idioma y la etiqueta de idioma. Estas entradas representan los "
+"idiomas a los que se puede traducir el contenido de la ejecución."
+
 #: apps/course_metadata/models.py:2206
 msgid "Total number of learners who have enrolled in this course run"
 msgstr "Cantidad total de alumnos que se han inscrito en este curso"
@@ -1476,6 +1516,15 @@ msgid ""
 msgstr ""
 "Este campo calculado indica si la ejecución de este curso está en el "
 "catálogo de suscripciones empresariales."
+
+#: apps/course_metadata/models.py:2275
+msgid ""
+"The identifier for a product variant. This is used to link a course run to a"
+" product variant for external LOBs (i.e; ExecEd & Bootcamps)."
+msgstr ""
+"El identificador de una variante de producto. Esto se utiliza para vincular "
+"un curso realizado a una variante de producto para LOB externos (es decir, "
+"ExecEd y Bootcamps)."
 
 #: apps/course_metadata/models.py:2617 apps/course_metadata/models.py:2630
 msgid "Current"

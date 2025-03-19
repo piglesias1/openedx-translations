@@ -1,8 +1,7 @@
 en:
   ? '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>*
     [Superset Resources](https://github.com/apache/superset#resources)<br>'
-  : '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>*
-    [Superset Resources](https://github.com/apache/superset#resources)<br>'
+  : '## Help<br>* [Aspects Reference](https://docs.openedx.org/projects/openedx-aspects/page/reference/learner_groups_dashboard.html)<br>* [Superset Resources](https://github.com/apache/superset#resources)<br>'
   '% Correct': '% Correct'
   '% Incorrect': '% Incorrect'
   '% Video Seconds Rewatched': '% Video Seconds Rewatched'
@@ -41,22 +40,16 @@ en:
   Avg Correct Attempts by Selected Learners: Avg Correct Attempts by Selected Learners
   Avg Course Grade: Avg Course Grade
   Avg Incorrect Attempts Coursewide: Avg Incorrect Attempts Coursewide
-  Avg Incorrect Attempts by Selected Learners: Avg Incorrect Attempts by Selected
-    Learners
+  Avg Incorrect Attempts by Selected Learners: Avg Incorrect Attempts by Selected Learners
   Avg Video Length (seconds): Avg Video Length (seconds)
   Block ID: Block ID
   Block Id: Block Id
   COUNT(*): COUNT(*)
   Changed By Fk: Changed By Fk
   Changed On: Changed On
-  Chart showing the number of Superset actions taken on each chart in the selected time period.: Chart
-    showing the number of Superset actions taken on each chart in the selected time
-    period.
-  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Chart
-    showing the number of Superset actions taken on each dashboard in the selected
-    time period.
-  Chart showing the number of registered users over the selected time period.: Chart
-    showing the number of registered users over the selected time period.
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: Chart showing the number of Superset actions taken on each chart in the selected time period.
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Chart showing the number of Superset actions taken on each dashboard in the selected time period.
+  Chart showing the number of registered users over the selected time period.: Chart showing the number of registered users over the selected time period.
   ClickHouse: ClickHouse
   ClickHouse metrics: ClickHouse metrics
   Content Level: Content Level
@@ -65,11 +58,8 @@ en:
   Correct Attempts by Selected Learner: Correct Attempts by Selected Learner
   Count: Count
   Count of Passing Grades: Count of Passing Grades
-  Count of unique users who performed an action in Superset over the selected time period.: Count
-    of unique users who performed an action in Superset over the selected time period.
-  Count over time of unique users who performed an action in Superset over the selected time period.: Count
-    over time of unique users who performed an action in Superset over the selected
-    time period.
+  Count of unique users who performed an action in Superset over the selected time period.: Count of unique users who performed an action in Superset over the selected time period.
+  Count over time of unique users who performed an action in Superset over the selected time period.: Count over time of unique users who performed an action in Superset over the selected time period.
   Course Comparison Dashboard: Course Comparison Dashboard
   Course Dashboard: Course Dashboard
   Course Data JSON: Course Data JSON
@@ -97,10 +87,8 @@ en:
   Courses Per Organization: Courses Per Organization
   Coursewide % Correct: Coursewide % Correct
   Coursewide Percent Correct: Coursewide Percent Correct
-  Coursewide averages are based on learners who attempted the problem.: Coursewide
-    averages are based on learners who attempted the problem.
-  Coursewide percentages are based on learners who attempted the problem.: Coursewide
-    percentages are based on learners who attempted the problem.
+  Coursewide averages are based on learners who attempted the problem.: Coursewide averages are based on learners who attempted the problem.
+  Coursewide percentages are based on learners who attempted the problem.: Coursewide percentages are based on learners who attempted the problem.
   Created: Created
   Created By Fk: Created By Fk
   Created On: Created On
@@ -118,9 +106,7 @@ en:
   Date: Date
   Description: Description
   Display Name: Display Name
-  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Displays
-    the top 10 highest enrollment courses. Selecting different courses in the filter
-    will display those courses.
+  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.
   Distribution of Course Grades: Distribution of Course Grades
   Distribution of Current Course Grade: Distribution of Current Course Grade
   Dump ID: Dump ID
@@ -191,14 +177,12 @@ en:
   Most-used Dashboards: Most-used Dashboards
   Name: Name
   Number of Learners: Number of Learners
-  Number of Learners who Attempted the Problem: Number of Learners who Attempted the
-    Problem
+  Number of Learners who Attempted the Problem: Number of Learners who Attempted the Problem
   Number of Videos: Number of Videos
   Number of Views across Video Duration: Number of Views across Video Duration
   Object ID: Object ID
   Object Type: Object Type
-  Only available in versions Redwood and later: Only available in versions Redwood
-    and later
+  Only available in versions Redwood and later: Only available in versions Redwood and later
   Operator Dashboard: Operator Dashboard
   Org: Org
   Organization: Organization
@@ -282,8 +266,7 @@ en:
   Time Range: Time Range
   ? To view the number of views across the duration of a single video, click the name
     of the video in the Video Link column in table above.
-  : To view the number of views across the duration of a single video, click the name
-    of the video in the Video Link column in table above.
+  : "To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above."
   Total: Total
   Total Courses: Total Courses
   Total Organizations: Total Organizations

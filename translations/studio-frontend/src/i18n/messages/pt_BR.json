@@ -121,7 +121,7 @@
   "proctoringEmailLongDescription": "Os cursos que usam Proctortrack exigem um e-mail de escalonamento. Certifique-se de que os alunos e o suporte possam entrar em contato com o seu curso equipe sobre questões de supervisão (por exemplo, apelações, reinicializações de exames, etc.).",
   "updateLinkLabel": "Atualizar",
   "completionCountLabel": "{completed}/{total} completo",
-  "completedItemLabel": "Completo",
+  "completedItemLabel": "completo",
   "uncompletedItemLabel": "incompleto",
   "loadingChecklistLabel": "Carregando",
   "launchChecklistLabel": "Lançamento de checklist",
