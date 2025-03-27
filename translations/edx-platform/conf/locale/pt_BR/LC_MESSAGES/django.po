@@ -19498,7 +19498,7 @@ msgid ""
 "{link_start}edX Inc.{link_end}"
 msgstr ""
 "edX, Open edX e os logotipos edX e Open edX são marcas registradas de "
-"{link_start}edX Inc. <span class='notranslate'>{link_end}</span>"
+"{link_start}edX Inc.{link_end}"
 
 #: cms/templates/widgets/header.html:72
 msgid "Current Course:"
@@ -19920,11 +19920,11 @@ msgid ""
 msgstr ""
 "Enviamos um e-mail para {strong_start}{email}{strong_end} com um link para "
 "ativar sua conta. Não consegue encontrá-lo? Verifique sua pasta de spam ou "
-"{link_start}reenvie o e-mail <span class='notranslate'>{link_end}</span> ."
+"{link_start}reenvie o e-mail{link_end}."
 
 #: lms/templates/dashboard.html:331
 msgid "Continue to {platform_name}"
-msgstr "Continuar para <span class='notranslate'>{platform_name}</span>"
+msgstr "Continuar para {platform_name}"
 
 #: lms/templates/dashboard.html:352
 msgid "Email Settings for {course_number}"
@@ -20607,9 +20607,7 @@ msgstr "Visualizador do histórico de envios"
 
 #: lms/templates/staff_problem_info.html:130
 msgid "Learner's {platform_name} email address or username:"
-msgstr ""
-"Endereço de e-mail ou nome de usuário <span "
-"class='notranslate'>{platform_name}</span> do aluno:"
+msgstr "Endereço de e-mail ou nome de usuário do aluno em {platform_name}:"
 
 #: lms/templates/staff_problem_info.html:131
 msgid "Enter the learner email address or username"
@@ -20792,7 +20790,7 @@ msgstr "Compartilhe este vídeo"
 
 #: lms/templates/video.html:97
 msgid "Share on {site}"
-msgstr "Compartilhar em <span class='notranslate'>{site}</span>"
+msgstr "Compartilhar em {site}"
 
 #: lms/templates/video.html:115
 msgid "Copy"
@@ -21745,9 +21743,7 @@ msgstr "Você não cancelou a assinatura de e-mails de {org} {course}."
 
 #: lms/templates/bulk_email/unsubscribe_success.html:38
 msgid "{link_start}Return to {platform_name}{link_end}"
-msgstr ""
-"{link_start}Voltar para {platform_name} <span "
-"class='notranslate'>{link_end}</span>"
+msgstr "{link_start}Voltar para {platform_name} {link_end}"
 
 #: lms/templates/calculator/toggle_calculator.html:10
 msgid "Open Calculator"
@@ -21933,9 +21929,7 @@ msgstr "Nomeie seu CCX"
 
 #: lms/templates/ccx/coach_dashboard.html:51
 msgid "Create a new Custom Course for {platform_name}"
-msgstr ""
-"Crie um novo curso personalizado para <span "
-"class='notranslate'>{platform_name}</span>"
+msgstr "Crie um novo curso personalizado para {platform_name}"
 
 #: lms/templates/ccx/coach_dashboard.html:69
 #: lms/templates/ccx/coach_dashboard.html:81
@@ -22303,9 +22297,7 @@ msgstr "Benefícios de um Certificado Verificado"
 
 #: lms/templates/course_modes/error.html:13
 msgid "Unable to enroll in {course_name}"
-msgstr ""
-"Não é possível se inscrever em <span "
-"class='notranslate'>{course_name}</span>"
+msgstr "Não é possível se inscrever em {course_name}"
 
 #: lms/templates/course_modes/error.html:24
 msgid "Sorry, we were unable to enroll you in"
@@ -22325,18 +22317,16 @@ msgid ""
 "Showcase a {link_start}verified certificate{link_end} of completion on your "
 "resumé to advance your career"
 msgstr ""
-"Apresente um {link_start}certificado verificado <span "
-"class='notranslate'>{link_end}</span> de conclusão em seu currículo para "
-"avançar em sua carreira"
+"Apresente um {link_start}certificado verificado{link_end} de conclusão em "
+"seu currículo para avançar em sua carreira"
 
 #: lms/templates/course_modes/fbe.html:20
 msgid ""
 "Get {start_bold}access to all course activities{end_bold}, including both "
 "graded and non-graded assignments, while the course is running"
 msgstr ""
-"Obtenha acesso {start_bold}a todas as atividades do curso <span "
-"class='notranslate'>{end_bold}</span> , incluindo tarefas com e sem nota, "
-"durante o curso"
+"Obtenha {start_bold}acesso a todas as atividades do curso{end_bold}, "
+"incluindo tarefas com e sem nota, enquanto o curso estiver em andamento."
 
 #: lms/templates/course_modes/fbe.html:24
 msgid "Show more"
@@ -22347,14 +22337,12 @@ msgid ""
 "{start_bold}Full access{end_bold} to course content and materials, even "
 "after the course ends"
 msgstr ""
-"{start_bold}Acesso total <span class='notranslate'>{end_bold}</span> ao "
-"conteúdo e materiais do curso, mesmo após o término do curso"
+"{start_bold}Acesso total{end_bold} ao conteúdo e materiais do curso, mesmo "
+"após o término do curso"
 
 #: lms/templates/course_modes/fbe.html:35
 msgid "{link_start}Learn more{link_end} about course access"
-msgstr ""
-"{link_start}Saiba mais <span class='notranslate'>{link_end}</span> sobre o "
-"acesso ao curso"
+msgstr "{link_start}Saiba mais{link_end} sobre o acesso ao curso"
 
 #: lms/templates/course_modes/fbe.html:42
 #: lms/templates/course_modes/unfbe.html:23
@@ -22362,27 +22350,24 @@ msgid ""
 "Support our {start_bold}mission{end_bold} to increase access to high-quality"
 " education for everyone, everywhere"
 msgstr ""
-"Apoie nossa {start_bold}missão <span class='notranslate'>{end_bold}</span> "
-"para aumentar o acesso à educação de alta qualidade para todos, em qualquer "
-"lugar"
+"Apoie nossa {start_bold}missão{end_bold} para aumentar o acesso à educação "
+"de alta qualidade para todos, em qualquer lugar"
 
 #: lms/templates/course_modes/fbe.html:53
 msgid ""
 "Get temporary access to  {start_bold}non-graded{end_bold} activities, "
 "including discussion forums and non-graded assignments"
 msgstr ""
-"Obtenha acesso temporário a {start_bold}atividades <span "
-"class='notranslate'>{end_bold}</span> não avaliadas, incluindo fóruns de "
-"discussão e tarefas não avaliadas"
+"Obtenha acesso temporário a atividades {start_bold}não avaliadas{end_bold}, "
+"incluindo fóruns de discussão e tarefas não avaliadas"
 
 #: lms/templates/course_modes/fbe.html:57
 msgid ""
 "Get {start_bold}temporary access{end_bold} to the course material, including"
 " videos and readings"
 msgstr ""
-"Obtenha {start_bold}acesso temporário <span "
-"class='notranslate'>{end_bold}</span> ao material do curso, incluindo vídeos"
-" e leituras"
+"Obtenha {start_bold}acesso temporário{end_bold} ao material do curso, "
+"incluindo vídeos e leituras"
 
 #: lms/templates/course_modes/fbe.html:62
 msgid "Access expires and all progress will be lost on"
@@ -22394,9 +22379,7 @@ msgstr "O acesso expira e todo o progresso será perdido"
 
 #: lms/templates/course_modes/track_selection.html:13
 msgid "Enroll In {course_name} | Upgrade Now"
-msgstr ""
-"Inscreva-se em <span class='notranslate'>{course_name}</span> | Atualize "
-"agora"
+msgstr "Inscreva-se em {course_name} | Atualize agora"
 
 #: lms/templates/course_modes/track_selection.html:92
 msgid "Choose a path for your course in"
@@ -22412,8 +22395,7 @@ msgid ""
 " and motivated{end_bold} to complete their courses"
 msgstr ""
 "Estudos mostram que aqueles que escolhem esta opção são {start_bold}mais "
-"engajados e motivados <span class='notranslate'>{end_bold}</span> para "
-"concluir seus cursos"
+"engajados e motivados{end_bold} para concluir seus cursos"
 
 #: lms/templates/course_modes/track_selection.html:151
 msgid "Access this course"
@@ -22516,8 +22498,7 @@ msgstr "Compartilhe com seus amigos e família!"
 #: lms/templates/courseware/course_about_sidebar_header.html:27
 msgid "I just enrolled in {number} {title} through {account} {url}"
 msgstr ""
-"Acabei de me inscrever em {number} {title} por meio de {account} <span "
-"class='notranslate'>{url}</span>"
+"Acabei de me inscrever em {number} {title} por meio de {account} {url}"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:38
 msgid "I just enrolled in {number} {title} through {platform} {url}"
@@ -22998,9 +22979,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:52
 msgid "Your grade and certificate will be ready after {date}."
-msgstr ""
-"Sua nota e certificado estarão prontos após <span "
-"class='notranslate'>{date}</span> ."
+msgstr "Sua nota e certificado estarão prontos após {date}."
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:62
 msgid "Congratulations! Your certificate is ready."
@@ -23062,7 +23041,7 @@ msgstr "Este link abrirá a visualização do certificação na web"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:104
 msgid "View my {cert_name_short}"
-msgstr "Veja meu <span class='notranslate'>{cert_name_short}</span>"
+msgstr "Veja meu {cert_name_short}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:112
 msgid "Complete our course feedback survey"
@@ -23207,8 +23186,8 @@ msgid ""
 msgstr ""
 "{start_bold}Aproveite ao máximo seu curso!{end_bold} Atualize para obter "
 "acesso total ao material do curso, desbloquear tarefas com e sem nota e "
-"ganhar um {link_start}certificado verificado <span "
-"class='notranslate'>{link_end}</span> para mostrar em seu currículo."
+"ganhar um {link_start}certificado verificado{link_end} para mostrar em seu "
+"currículo."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:396
 msgid ""
@@ -23216,8 +23195,7 @@ msgid ""
 "{link_start}verified certificate{link_end} to showcase on your resumé."
 msgstr ""
 "{start_bold}Aproveite ao máximo seu curso!{end_bold} Atualize para ganhar um"
-" {link_start}certificado verificado <span "
-"class='notranslate'>{link_end}</span> para mostrar em seu currículo."
+" {link_start}certificado verificado{link_end} para mostrar em seu currículo."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:411
 msgid "Upgrade"
@@ -23235,8 +23213,7 @@ msgid ""
 "Select {strong_start}Get Credit{strong_end} to get started."
 msgstr ""
 "Você concluiu este curso e está qualificado para adquirir o crédito do "
-"curso. Selecione {strong_start}Obter crédito <span "
-"class='notranslate'>{strong_end}</span> para começar."
+"curso. Selecione {strong_start}Obter Crédito{strong_end} para começar."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:22
 msgid "You are now eligible for credit from {provider}. Congratulations!"
@@ -23257,8 +23234,7 @@ msgid ""
 msgstr ""
 "Obrigado por seu pagamento. Para receber o crédito do curso, você deve "
 "solicitar o crédito no site {link_to_provider_site}. Selecione "
-"{start_bold}Solicitar crédito <span class='notranslate'>{end_bold}</span> "
-"para começar."
+"{start_bold}Solicitar Crédito{end_bold} para começar."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:45
 msgid "Request Credit"
@@ -23287,8 +23263,8 @@ msgid ""
 "{link_to_provider_site} website."
 msgstr ""
 "{start_bold}Parabéns!{end_bold} {provider_name} aprovou sua solicitação de "
-"crédito de curso. Para ver o crédito do curso, visite o site <span "
-"class='notranslate'>{link_to_provider_site}</span> ."
+"crédito do curso. Para ver o crédito do curso, visite o site "
+"{link_to_provider_site}."
 
 #: lms/templates/dashboard/_dashboard_credit_info.html:65
 msgid "View Credit"
@@ -23845,21 +23821,20 @@ msgstr "O número do seu pedido é: {order_number}"
 
 #: lms/templates/emails/passed_verification_email.txt:4
 msgid "Hello {full_name},"
-msgstr "Olá <span class='notranslate'>{full_name}</span> ,"
+msgstr "Olá {full_name},"
 
 #: lms/templates/emails/passed_verification_email.txt:6
 msgid "Your {platform_name} ID verification photos have been approved."
 msgstr ""
-"Suas fotos de verificação de identidade <span "
-"class='notranslate'>{platform_name}</span> foram aprovadas."
+"Suas fotos de verificação de identidade em {platform_name} foram aprovadas."
 
 #: lms/templates/emails/passed_verification_email.txt:8
 msgid ""
 "Your approval status remains valid for two years, and it will expire "
 "{expiration_datetime}."
 msgstr ""
-"Seu status de aprovação permanece válido por dois anos e expirará <span "
-"class='notranslate'>{expiration_datetime}</span> ."
+"Seu status de aprovação permanece válido por dois anos e expirará em "
+"{expiration_datetime}."
 
 #: lms/templates/emails/photo_submission_confirmation.txt:4
 msgid "Hi {full_name},"
@@ -24642,7 +24617,7 @@ msgstr ""
 "minutos.{li_end}{li_start}Os arquivos de relatórios são excluídos 90 dias "
 "após a geração. Se você precisar acessar relatórios antigos, baixe e "
 "armazene os arquivos, de acordo com as políticas de segurança de dados de "
-"sua instituição.{li_end} <span class='notranslate'>{ul_end}</span>"
+"sua instituição.{li_end}{ul_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2.html:55
 msgid ""
@@ -24672,7 +24647,7 @@ msgstr ""
 "minutos.{li_end}{li_start}Os arquivos de relatórios são excluídos 90 dias "
 "após a geração. Se você precisar acessar relatórios antigos, baixe e "
 "armazene os arquivos, de acordo com as políticas de segurança de dados de "
-"sua instituição.{li_end} <span class='notranslate'>{ul_end}</span>"
+"sua instituição.{li_end}{ul_end}"
 
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html:7
 msgid "Edit Coupon Code"
@@ -25363,8 +25338,7 @@ msgid ""
 "see the {start_link}documentation{end_link}."
 msgstr ""
 "Você pode incluir palavras-chave em suas mensagens. Para obter uma lista de "
-"palavras-chave disponíveis, consulte a {start_link}documentação <span "
-"class='notranslate'>{end_link}</span> ."
+"palavras-chave disponíveis, consulte a {start_link}documentação{end_link}."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:106
 msgid "CAUTION!"
@@ -26090,8 +26064,7 @@ msgid ""
 msgstr ""
 "Este link de redefinição de senha é inválido. Já pode ter sido usado. Para "
 "redefinir sua senha, acesse a página de {start_link}login{end_link} e "
-"selecione {start_strong}Esqueceu a senha <span "
-"class='notranslate'>{end_strong}</span> ."
+"selecione {start_strong}Esqueceu a senha{end_strong}."
 
 #: lms/templates/registration/password_reset_done.html:3
 msgid "Password reset successful"
@@ -26150,12 +26123,11 @@ msgid ""
 "with export controls, we cannot allow you to access this course at this "
 "time."
 msgstr ""
-"Nosso sistema indica que você está tentando acessar este curso <span "
-"class='notranslate'>{platform_name}</span> de um país ou região atualmente "
-"sujeito a sanções econômicas e comerciais dos EUA. Infelizmente, como <span "
-"class='notranslate'>{platform_name}</span> é necessário para cumprir os "
-"controles de exportação, não podemos permitir que você acesse este curso no "
-"momento."
+"Nosso sistema indica que você está tentando acessar este curso em "
+"{platform_name} de um país ou região atualmente sujeito a sanções econômicas"
+" e comerciais dos EUA. Infelizmente, como {platform_name} necessita cumprir "
+"os controles de exportação, não podemos permitir que você acesse este curso "
+"no momento."
 
 #: lms/templates/static_templates/faq.html:5
 #: lms/templates/static_templates/faq.html:10
@@ -26680,11 +26652,11 @@ msgstr ""
 #: themes/stanford-style/lms/templates/footer.html:21
 #: themes/stanford-style/lms/templates/static_templates/tos.html:23
 msgid "Copyright"
-msgstr "Copyright"
+msgstr "Direitos autorais"
 
 #: themes/stanford-style/lms/templates/footer.html:36
 msgid "Copyright {year}. All rights reserved."
-msgstr "Copyright {year}. Todos os direitos reservados."
+msgstr "Direitos autorais, {year}. Todos os direitos reservados."
 
 #: themes/stanford-style/lms/templates/index.html:16
 msgid "For anyone, anywhere, anytime"
@@ -26823,7 +26795,7 @@ msgid ""
 "(*).{strong_close}"
 msgstr ""
 "Os campos obrigatórios são indicados por {strong_indicator}texto em negrito "
-"e um asterisco (*). <span class='notranslate'>{strong_close}</span>"
+"e um asterisco (*).{strong_close}"
 
 #: themes/stanford-style/lms/templates/register-shib.html:190
 msgid "Update My Account"
@@ -26946,7 +26918,7 @@ msgstr "Insira seu Código de Honra aqui!"
 
 #: themes/stanford-style/lms/templates/static_templates/tos.html:25
 msgid "Put your Copyright Text here!"
-msgstr "Insira seu texto de Copyright aqui!"
+msgstr "Insira seu texto de direitos autorais aqui!"
 
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"

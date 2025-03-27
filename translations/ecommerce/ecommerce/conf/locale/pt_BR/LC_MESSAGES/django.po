@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Pablo Iglesias, 2025
 # 
 msgid ""
 msgstr ""
@@ -12,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2023-06-13 08:00+0000\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"Last-Translator: Pablo Iglesias, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/open-edx/teams/6205/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +53,7 @@ msgstr "A url da base LMS para site/microsite personalizado"
 #: core/models.py:42
 msgid "Root URL of this site's LMS (e.g. https://courses.stage.edx.org)"
 msgstr ""
-"A URL raiz da LMS deste site (por exemplo: https:/courses.stage.edx.org)"
+"A URL raiz da LMS deste site (por exemplo: https://courses.stage.edx.org)"
 
 #: core/models.py:47
 msgid "Path to custom site theme"
@@ -375,12 +376,12 @@ msgstr ""
 #: coupons/views.py:265
 #, python-brace-format
 msgid "You have already purchased {course} seat."
-msgstr "Você já comprou uma vaga no {curso}."
+msgstr "Você já comprou uma vaga no {course}."
 
 #: coupons/views.py:289
 #, python-brace-format
 msgid "A discount has been applied, courtesy of {enterprise_customer_name}."
-msgstr "Um desconto foi aplicado, cortesia de {nome_empresa_cliente}."
+msgstr "Um desconto foi aplicado, cortesia de {enterprise_customer_name}."
 
 #: coupons/views.py:299
 msgid "This coupon code is not valid for this course. Try a different course."
@@ -459,10 +460,10 @@ msgid ""
 "complete. If you need additional assistance, please contact the {site_name} "
 "Support Team."
 msgstr ""
-"Crédito não disponível atualmente para \"{nome_curso}\". Se você está  "
-"matriculado neste curso, por favor, tente de novo depois de completar todas "
-"as avaliações. Se você precisar de assistência adicional, por favor contate "
-"a Equipe de Suporte de {nome_site}"
+"Crédito não disponível atualmente para \"{course_name}\". Se você está  "
+"matriculado neste curso, por favor, tente novamente após completar todas as "
+"avaliações. Se você precisar de assistência adicional, por favor contate a "
+"Equipe de Suporte de {site_name}."
 
 #: credit/views.py:75
 msgid ""
@@ -752,7 +753,10 @@ msgid ""
 "\n"
 "              %(platform_name)s Enterprise Offer Administration Tool\n"
 "              "
-msgstr "%(platform_name)s Ferramenta de Administração de Oferta Corporativa"
+msgstr ""
+"\n"
+"              %(platform_name)s Ferramenta de Administração de Oferta Corporativa\n"
+"              "
 
 #: enterprise/templates/enterprise/enterpriseoffer_list.html:26
 msgid "Current enterprise offers"
@@ -791,7 +795,10 @@ msgid ""
 "\n"
 "                %(platform_name)s Enterprise Offer Administration Tool\n"
 "              "
-msgstr "%(platform_name)s Ferramenta de Administração de Oferta Corporativa"
+msgstr ""
+"\n"
+"                %(platform_name)s Ferramenta de Administração de Oferta Corporativa\n"
+"              "
 
 #: enterprise/utils.py:239
 #, python-brace-format
@@ -1084,18 +1091,17 @@ msgid ""
 "{paragraph_end}"
 msgstr ""
 "{paragraph_start}Ao comprar, você e sua organização concordam com os "
-"seguintes termos: {paragraph_end} {ul_start} {li_start}Cada código é válido "
-"para o curso coberto e pode ser usado apenas uma vez.{li_end} {li_start}Você"
-" é responsável por distribuindo códigos para seus alunos em sua "
+"seguintes termos:{paragraph_end} {ul_start} {li_start}Cada código é válido "
+"para um curso coberto e pode ser usado apenas uma vez.{li_end} "
+"{li_start}Você é responsável por distribuir códigos para seus alunos em sua "
 "organização.{li_end} {li_start}Cada código expirará em um ano a partir da "
 "data da compra ou, se antes, assim que o curso for encerrado.{li_end} "
-"{li_start}Se um curso não for designado como individualizado, você deve "
-"confirmar se uma execução do curso está disponível antes da expiração. "
-"{li_end} {li_start}Você não pode revender códigos para terceiros.{li_end} "
+"{li_start}Se um curso não for definido como auto guiado, você deve confirmar"
+" se uma execução do curso está disponível antes da expiração. {li_end} "
+"{li_start}Você não pode revender códigos para terceiros.{li_end} "
 "{li_start}Todas as vendas do edX for Business são finais e não estão "
 "qualificadas para reembolso.{li_end}{ul_end} {paragraph_start}Você receberá "
-"um e-mail em { user_email} com seu(s) código(s) de inscrição. "
-"{paragraph_end}"
+"um e-mail em {user_email} com seu(s) código(s) de inscrição. {paragraph_end}"
 
 #: extensions/basket/views.py:361
 #, python-brace-format
@@ -1883,7 +1889,10 @@ msgid ""
 "\n"
 "                %(platform_name)s Program Offer Administration Tool\n"
 "              "
-msgstr "%(platform_name)s Ferramenta de administração da oferta do programa"
+msgstr ""
+"\n"
+"                %(platform_name)s Ferramenta de Administração da Oferta de Programa\n"
+"              "
 
 #: programs/templates/programs/programoffer_list.html:26
 msgid "Current program offers"
@@ -2115,7 +2124,10 @@ msgid ""
 "\n"
 "                                %(platform_name)s Course Administration Tool\n"
 "                            "
-msgstr "%(platform_name)s Ferramenta de administração do curso"
+msgstr ""
+"\n"
+"                                Ferramenta de Administração do Curso %(platform_name)s \n"
+"                            "
 
 #: templates/courses/menu_options.html:8
 msgid "Student Dashboard"
@@ -2298,9 +2310,10 @@ msgid ""
 "                page.\n"
 "              "
 msgstr ""
-"Você também pode visualizar seus pedidos anteriores na página "
-"{link_start}{order_history_url}{link_middle} {link_end} Configurações da "
-"conta {link_end} ."
+"\n"
+"                Você também pode visualizar seus pedidos anteriores na página {link_start}{order_history_url}{link_middle}{link_end}Configurações da conta{link_end}\n"
+"\n"
+"              "
 
 #: templates/edx/credit/_provider_detail.html:8
 msgid "Select"
@@ -2320,7 +2333,10 @@ msgid ""
 "\n"
 "                        Learn more about %(display_name)s credit?\n"
 "                    "
-msgstr "Saiba mais sobre o crédito %(display_name)s ?"
+msgstr ""
+"\n"
+"                        Saiba mais sobre o crédito %(display_name)s?\n"
+"                    "
 
 #: templates/edx/credit/_provider_detail.html:47
 #, python-format
@@ -2328,7 +2344,10 @@ msgid ""
 "\n"
 "                        Credit available until %(date)s\n"
 "                    "
-msgstr "Crédito disponível até %(date)s"
+msgstr ""
+"\n"
+"                        Crédito disponível até %(date)s\n"
+"                    "
 
 #: templates/edx/credit/checkout.html:9
 #, python-format
@@ -2341,7 +2360,10 @@ msgid ""
 "\n"
 "                                    Purchase Credit for %(course_name)s\n"
 "                                "
-msgstr "Crédito de compra para %(course_name)s"
+msgstr ""
+"\n"
+"                                    Crédito de compra para %(course_name)s\n"
+"                                "
 
 #: templates/edx/credit/checkout.html:34
 #, python-format
@@ -2352,9 +2374,11 @@ msgid ""
 "                            Select one of the following institutions to purchase your credit.\n"
 "                        "
 msgstr ""
-"Parabéns! Você é elegível para adquirir crédito acadêmico para este curso. "
-"Você deve comprar seu crédito antes de %(date)s . Selecione uma das "
-"seguintes instituições para adquirir seu crédito."
+"\n"
+"                            Parabéns! Você é elegível para adquirir crédito acadêmico para este curso.\n"
+"                            Você deve comprar seu crédito antes de %(date)s.\n"
+"                            Selecione uma das seguintes instituições para adquirir seu crédito.\n"
+"                        "
 
 #: templates/edx/credit/checkout.html:51
 msgid "Price:"
@@ -2416,8 +2440,9 @@ msgid ""
 "                    Please read {link_start}our FAQs to view common questions about our certificates.{link_end}\n"
 "                "
 msgstr ""
-"Leia {link_start}nossas perguntas frequentes para ver perguntas comuns sobre"
-" nossos certificados. {link_end}"
+"\n"
+"                    Por favor, leia {link_start}nossas perguntas frequentes para saber sobre dúvidas comuns sobre nossos certificados.{link_end}\n"
+"                "
 
 #: templates/edx/email_confirmation_required.html:16
 msgid "You are enrolling in: "
@@ -2497,10 +2522,10 @@ msgid ""
 "                                again, or {link_start}{homepage_url}{link_middle}contact {platform_name} Support{link_end}.\n"
 "                            "
 msgstr ""
-"Se você tentou fazer uma compra, você não foi cobrado. Retorne ao seu "
-"{link_start}{link_middle}{homepage_url}painel {link_end} para tentar "
-"novamente ou {link_start}{homepage_url}{link_middle}entre em contato com o "
-"suporte da {platform_name} {link_end} ."
+"\n"
+"                                Se você tentou fazer uma compra, você não foi cobrado. Retorne ao seu {link_start}{link_middle}{homepage_url}painel{link_end} para tentar\n"
+"                                novamente, ou {link_start}{homepage_url}{link_middle}entre em contato com o suporte de {platform_name}{link_end}.\n"
+"                            "
 
 #: templates/oscar/basket/messages/new_total.html:7
 msgid "Your basket is now empty"
@@ -2515,9 +2540,10 @@ msgid ""
 "                {paragraph_start}Your cart includes {num_items} enrollment codes at a total cost of {total}, that you will receive via email.{paragraph_end}\n"
 "            "
 msgstr ""
-"{strong_start}Atualizamos sua quantidade.{strong_end} {paragraph_start}Seu "
-"carrinho inclui {num_items} códigos de inscrição a um custo total de "
-"{total}, que você receberá por e-mail. {paragraph_end}"
+"\n"
+"                {strong_start}Atualizamos sua quantidade.{strong_end}\n"
+"                {paragraph_start}Seu carrinho inclui {num_items} códigos de inscrição a um custo total de {total}, que você receberá por e-mail.{paragraph_end}\n"
+"            "
 
 #: templates/oscar/basket/messages/new_total.html:27
 msgid "View basket"
@@ -2568,7 +2594,10 @@ msgid ""
 "\n"
 "                                    %(benefit)s discount provided by %(enterprise_customer_name)s.\n"
 "                                "
-msgstr "desconto %(benefit)s fornecido por %(enterprise_customer_name)s ."
+msgstr ""
+"\n"
+"                                    desconto %(benefit)s fornecido por %(enterprise_customer_name)s.\n"
+"                                "
 
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:87
 #, python-format
@@ -2576,7 +2605,10 @@ msgid ""
 "\n"
 "                                    %(benefit)s%% discount for your first upgrade applied.\n"
 "                            "
-msgstr "%(benefit)s %% desconto para sua primeira atualização aplicada."
+msgstr ""
+"\n"
+"                                    %(benefit)s%% de desconto para sua primeira atualização aplicada.\n"
+"                            "
 
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:104
 #, python-format
@@ -2584,7 +2616,10 @@ msgid ""
 "\n"
 "                                        Coupon %(voucher_code)s applied for %(total_benefit)s off\n"
 "                                    "
-msgstr "Cupom %(voucher_code)s aplicado para %(total_benefit)s off"
+msgstr ""
+"\n"
+"                                        Cupom %(voucher_code)s aplicado para %(total_benefit)s de desconto\n"
+"                                    "
 
 #: templates/oscar/basket/partials/client_side_checkout_basket.html:110
 msgid "Remove coupon"
@@ -2692,7 +2727,10 @@ msgid ""
 "\n"
 "                                            %(benefit_value)s off\n"
 "                                        "
-msgstr "%(benefit_value)s desligado"
+msgstr ""
+"\n"
+"                                            %(benefit_value)s de desconto\n"
+"                                        "
 
 #: templates/oscar/basket/partials/hosted_checkout_basket.html:99
 #, python-format
@@ -2700,7 +2738,10 @@ msgid ""
 "\n"
 "                                            Coupon code %(voucher_code)s applied\n"
 "                                        "
-msgstr "Código de cupom %(voucher_code)s aplicado"
+msgstr ""
+"\n"
+"                                            Código do cupom %(voucher_code)s aplicado\n"
+"                                        "
 
 #: templates/oscar/basket/partials/hosted_checkout_basket.html:116
 msgid "Apply a coupon code"
@@ -2742,7 +2783,10 @@ msgid ""
 "\n"
 "        %(seat_type)s Certificate\n"
 "    "
-msgstr "%(seat_type)s Certificado"
+msgstr ""
+"\n"
+"        %(seat_type)s Certificado\n"
+"    "
 
 #: templates/oscar/checkout/cancel_checkout.html:7
 #: templates/oscar/checkout/cancel_checkout.html:16
@@ -2757,8 +2801,10 @@ msgid ""
 "        {payment_support_email}{end_link}.\n"
 "        "
 msgstr ""
-"Sua transação foi cancelada. Se você acha que ocorreu um erro, entre em "
-"contato com {start_link} {payment_support_email} {end_link} ."
+"\n"
+"        Sua transação foi cancelada. Se você acha que ocorreu um erro, entre em contato com {start_link}\n"
+"        {payment_support_email}{end_link}.\n"
+"        "
 
 #: templates/oscar/checkout/error.html:7
 #: templates/oscar/checkout/error.html:18
@@ -2781,9 +2827,10 @@ msgid ""
 "                    Payments FAQ {end_link} for troubleshooting tips.\n"
 "                    "
 msgstr ""
-"Tente enviar seu pagamento novamente. Se o problema persistir, consulte "
-"nossa {start_link} Perguntas frequentes sobre pagamentos {end_link} para "
-"obter dicas de solução de problemas."
+"\n"
+"                    Tente enviar seu pagamento novamente. Se o problema persistir, consulte nossa {start_link}\n"
+"                    Perguntas Frequentes sobre pagamentos {end_link} para obter dicas de solução de problemas.\n"
+"                    "
 
 #: templates/oscar/checkout/payment_error.html:7
 #: templates/oscar/checkout/payment_error.html:16
@@ -2818,7 +2865,10 @@ msgid ""
 "\n"
 "      SDN Check Failure\n"
 "    "
-msgstr "Falha na verificação de SDN"
+msgstr ""
+"\n"
+"      Falha na verificação de SDN\n"
+"    "
 
 #: templates/oscar/checkout/sdn_failure.html:26
 msgid ""
@@ -2961,10 +3011,9 @@ msgid ""
 "                            Thank you for purchasing %(credit_hours)s credit hours from %(credit_provider)s for %(course_title)s. A charge will appear on your credit or debit card statement with a company name of \"%(platform_name)s\".\n"
 "                        "
 msgstr ""
-"Obrigado por adquirir horas de crédito %(credit_hours)s de "
-"%(credit_provider)s por %(course_title)s . Uma cobrança aparecerá no extrato"
-" do seu cartão de crédito ou débito com o nome da empresa &quot; "
-"%(platform_name)s &quot;."
+"\n"
+"                            Obrigado por adquirir %(credit_hours)s horas de crédito de %(credit_provider)s para %(course_title)s. Uma cobrança aparecerá no extrato do seu cartão de crédito ou débito com o nome da empresa \"%(platform_name)s\".\n"
+"                        "
 
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67
 #: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:8
@@ -3061,8 +3110,9 @@ msgid ""
 "                                Download and save the {link_start}{download_csv_link}{link_middle} enrollment code file.{link_end}\n"
 "                            "
 msgstr ""
-"Baixe e salve o arquivo de código de inscrição "
-"{link_start}{download_csv_link}{link_middle}. {link_end}"
+"\n"
+"                                Baixe e salve o {link_start}{download_csv_link}{link_middle} arquivo de código de inscrição.{link_end}\n"
+"                            "
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:34
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:9
@@ -3086,10 +3136,9 @@ msgid ""
 "                            To view your payment information, log in to see your Order History, under {link_start}{order_history_url}{link_middle}Account Settings{link_end}.\n"
 "                        "
 msgstr ""
-"Para visualizar suas informações de pagamento, faça login para ver seu "
-"Histórico de pedidos, em "
-"{link_start}{order_history_url}{link_middle}Configurações da conta "
-"{link_end} ."
+"\n"
+"                            Para visualizar suas informações de pagamento, faça login para ver seu Histórico de Pedidos, em {link_start}{order_history_url}{link_middle}Configurações da Conta{link_end}.\n"
+"                        "
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:45
 #, python-brace-format
@@ -3098,8 +3147,9 @@ msgid ""
 "                            For more information and assistance, check our {link_start}Help Center{link_end}\n"
 "                        "
 msgstr ""
-"Para obter mais informações e assistência, consulte nossa "
-"{link_start}Central de Ajuda {link_end}"
+"\n"
+"                            Para obter mais informações e assistência, consulte nossa {link_start}Central de Ajuda{link_end}\n"
+"                        "
 
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.html:50
 #: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:16
@@ -3256,7 +3306,10 @@ msgid ""
 "\n"
 "                        Created product variant '%(name)s'.\n"
 "                    "
-msgstr "Variante de produto criada &#39; %(name)s &#39;."
+msgstr ""
+"\n"
+"                        Variante de produto criada '%(name)s'.\n"
+"                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:17
 #, python-format
@@ -3264,7 +3317,10 @@ msgid ""
 "\n"
 "                        Created variant of '%(parent_name)s'.\n"
 "                    "
-msgstr "Variante criada de &#39; %(parent_name)s &#39;."
+msgstr ""
+"\n"
+"                        Variante criada de '%(parent_name)s'.\n"
+"                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:25
 #, python-format
@@ -3272,7 +3328,10 @@ msgid ""
 "\n"
 "                        Updated product variant '%(name)s'.\n"
 "                    "
-msgstr "Variante de produto atualizada &#39; %(name)s &#39;."
+msgstr ""
+"\n"
+"                        Variante de produto atualizada '%(name)s'.\n"
+"                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:31
 #, python-format
@@ -3280,7 +3339,10 @@ msgid ""
 "\n"
 "                        Updated a variant of '%(parent_name)s'.\n"
 "                    "
-msgstr "Atualizada uma variante de &#39; %(parent_name)s &#39;."
+msgstr ""
+"\n"
+"                        Atualizada uma variante de '%(parent_name)s'.\n"
+"                    "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:42
 #, python-format
@@ -3288,7 +3350,10 @@ msgid ""
 "\n"
 "                    Created product '%(name)s'.\n"
 "                "
-msgstr "Produto criado &#39; %(name)s &#39;."
+msgstr ""
+"\n"
+"                    Produto criado '%(name)s'.\n"
+"                "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:48
 #, python-format
@@ -3296,7 +3361,10 @@ msgid ""
 "\n"
 "                    Updated product '%(name)s'.\n"
 "                "
-msgstr "Produto atualizado &#39; %(name)s &#39;."
+msgstr ""
+"\n"
+"                    Produto atualizado '%(name)s'.\n"
+"                "
 
 #: templates/oscar/dashboard/catalogue/messages/product_saved.html:60
 msgid "Edit again"
@@ -3310,8 +3378,10 @@ msgid ""
 "                            {start_anchor}{title}{end_anchor}.\n"
 "                        "
 msgstr ""
-"No momento, você está editando uma variante de produto de "
-"{start_anchor}{title} {end_anchor} ."
+"\n"
+"                            No momento, você está editando uma variante de produto de\n"
+"                            {start_anchor}{title}{end_anchor}.\n"
+"                        "
 
 #: templates/oscar/dashboard/catalogue/product_update.html:73
 #: templates/oscar/dashboard/catalogue/product_update.html:103
@@ -3574,7 +3644,10 @@ msgid ""
 "\n"
 "        Order %(number)s - Line #%(id)s\n"
 "    "
-msgstr "Ordem %(number)s - Linha # %(id)s"
+msgstr ""
+"\n"
+"        Ordem %(number)s - Linha #%(id)s\n"
+"    "
 
 #: templates/oscar/dashboard/orders/line_detail.html:18
 #, python-format

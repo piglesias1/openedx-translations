@@ -120,7 +120,7 @@ msgstr "Você ainda não criou um certificado."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
-msgstr "Apagar \"<%= signatoryName %>\" da lista de emissores?"
+msgstr "Apagar \"<%- signatoryName %>\" da lista de signatários?"
 
 #: cms/static/js/certificates/views/signatory_editor.js:137
 #: cms/static/js/views/course_info_update.js:238
@@ -488,7 +488,7 @@ msgstr "Insira um número inteiro não negativo."
 #: cms/static/js/models/settings/course_grader.js:66
 msgid "You must have at least one undroppable <%- types %> assignment."
 msgstr ""
-"Você deve ter pelo menos uma atribuição &lt;%-types %&gt; que não pode ser "
+"Você deve ter pelo menos uma atribuição <%- types %> que não pode ser "
 "descartada."
 
 #: cms/static/js/models/settings/course_grading_policy.js:79
@@ -518,9 +518,8 @@ msgid ""
 "Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
 "<%- (fileExtensions) %> to upload."
 msgstr ""
-"Somente arquivos &lt;%- fileTypes %&gt; podem ser carregados. Por favor, "
-"selecione um arquivo terminando em &lt;%- (fileExtensions) %&gt; para "
-"carregar."
+"Somente arquivos <%- fileTypes %> podem ser carregados. Por favor, selecione"
+" um arquivo terminando em <%- (fileExtensions) %> para carregar."
 
 #: cms/static/js/models/uploads.js:63
 #: lms/templates/student_account/hinted_login.underscore:21
@@ -729,7 +728,7 @@ msgstr "copiando"
 
 #: cms/static/js/views/course_outline.js:336
 msgid "Copy of '{componentDisplayName}'"
-msgstr "Cópia de &#39;{componentDisplayName}&#39;"
+msgstr "Cópia de '{componentDisplayName}'"
 
 #: cms/static/js/views/course_outline.js:372
 #: cms/static/js/views/pages/container.js:302
@@ -862,7 +861,7 @@ msgstr "{selectedProvider} credenciais salvas."
 
 #: cms/static/js/views/edit_chapter.js:62
 msgid "Upload a new PDF to “<%- name %>”"
-msgstr "Carregue um novo PDF para “&lt;%- nome %&gt;”"
+msgstr "Carregue um novo PDF para “<%- name %>”"
 
 #: cms/static/js/views/edit_chapter.js:64
 msgid "Please select a PDF file to upload."
@@ -1560,7 +1559,7 @@ msgstr "Envie o seu vídeo em formato pequeno."
 
 #: cms/static/js/views/show_textbook.js:33
 msgid "Delete “<%- name %>”?"
-msgstr "Excluir “<%= name %>”?"
+msgstr "Excluir “<%- name %>”?"
 
 #: cms/static/js/views/show_textbook.js:36
 msgid ""
@@ -1597,15 +1596,15 @@ msgid ""
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
 "O comprimento combinado dos campos organização, número do curso e execução "
-"do curso não pode ter mais de &lt;%- limit %&gt; caracteres."
+"do curso, não pode ter mais de <%- limit %> caracteres."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
 "The combined length of the organization and library code fields cannot be "
 "more than <%- limit %> characters."
 msgstr ""
-"O comprimento combinado dos campos de código da organização e da biblioteca "
-"não pode ser maior que &lt;%- limit %&gt; caracteres."
+"O comprimento combinado dos campos organização e código da biblioteca, não "
+"pode ser maior que <%- limit %> caracteres."
 
 #: cms/static/js/views/utils/move_xblock_utils.js:33
 msgid "Success! \"{displayName}\" has been moved."
@@ -3251,15 +3250,15 @@ msgstr "Erro no servidor, por favor, recarregue a página e tente novamente"
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:64
 msgid "<%- user %> already in exception list."
-msgstr "&lt;%- user %&gt; já está na lista de exceções."
+msgstr "<%- user %> já está na lista de exceções."
 
 #: lms/static/js/certificates/views/certificate_allowlist_editor.js:69
 msgid ""
 "<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"&lt;%- user %&gt; foi adicionado com sucesso à lista de exceções. Clique em "
-"Gerar certificado de exceção abaixo para enviar o certificado."
+"<%- user %> foi adicionado com sucesso à lista de exceções. Clique em Gerar "
+"Certificado de Exceção abaixo para enviar o certificado."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
@@ -3728,9 +3727,7 @@ msgstr "Endereço de e-mail inválido: {email}"
 
 #: lms/static/js/groups/views/cohort_editor.js:284
 msgid "Cohort assignment not allowed: {email_or_username}"
-msgstr ""
-"Atribuição de coorte não permitida: <span "
-"class='notranslate'>{email_or_username}</span>"
+msgstr "Atribuição de coorte não permitida: {email_or_username}"
 
 #: lms/static/js/groups/views/cohort_editor.js:291
 msgid "There was an error when trying to add learners:"
@@ -4294,10 +4291,9 @@ msgid ""
 " '<%- student_id %>'. Make sure that the problem and student identifiers are"
 " complete and correct."
 msgstr ""
-"Erro ao redefinir tentativas de problema para o problema &#39;&lt;%- "
-"problem_id %&gt;&#39; e aluno &#39;&lt;%- student_id %&gt;&#39;. Certifique-"
-"se de que os identificadores do problema e do aluno estejam completos e "
-"corretos."
+"Erro ao redefinir tentativas de problema para o problema '<%- problem_id %>'"
+" e aluno '<%- student_id %>'. Certifique-se de que os identificadores do "
+"problema e do aluno estejam completos e corretos."
 
 #: lms/static/js/instructor_dashboard/student_admin.js:194
 msgid ""
@@ -4627,9 +4623,8 @@ msgid ""
 "To access the courses available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
 msgstr ""
-"Para acessar os cursos disponíveis por meio de <span "
-"class='notranslate'>{enterpriseName}</span> , visite o painel <span "
-"class='notranslate'>{enterpriseName}</span> ."
+"Para acessar os cursos disponíveis por meio de {enterpriseName}, visite o "
+"painel {enterpriseName}."
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:160
 msgid "Go to dashboard"
@@ -4824,9 +4819,7 @@ msgstr ""
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:54
 msgid "Before proceeding, please {htmlStart}{emailMsg}{htmlEnd}."
-msgstr ""
-"Antes de prosseguir, {htmlStart}{emailMsg} <span "
-"class='notranslate'>{htmlEnd}</span> ."
+msgstr "Por favor, antes de prosseguir, {htmlStart}{emailMsg}{htmlEnd}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:63
 msgid ""
@@ -5039,7 +5032,7 @@ msgstr ""
 "conta.{line_break}{line_break}Acabamos de enviar um link de ativação para "
 "{strong_start} {email} {strong_end}. Se você não receber um e-mail, "
 "verifique suas pastas de spam ou {anchorStart}entre em contato com o Suporte"
-" {platform_name} <span class='notranslate'>{anchorEnd}</span> ."
+" de {platform_name}{anchorEnd}."
 
 #: lms/static/js/student_account/views/LoginView.js:249
 msgid "An unexpected error has occurred."
@@ -5604,12 +5597,9 @@ msgstr "Adicionado a favoritos"
 #: openedx/features/course_search/static/course_search/js/views/search_results_view.js:69
 msgid "{total_results} result found for \"{search_term}\""
 msgid_plural "{total_results} results found for \"{search_term}\""
-msgstr[0] ""
-"{total_results} resultado encontrado para &quot; {search_term} &quot;"
-msgstr[1] ""
-"{total_results} resultados encontrados para &quot; {search_term} &quot;"
-msgstr[2] ""
-"{total_results} resultados encontrados para &quot; {search_term} &quot;"
+msgstr[0] "{total_results} resultado encontrado para \"{search_term}\""
+msgstr[1] "{total_results} resultados encontrados para \"{search_term}\""
+msgstr[2] "{total_results} resultados encontrados para \"{search_term}\""
 
 #: openedx/features/learner_profile/static/learner_profile/js/learner_profile_factory.js:68
 msgid "Profile Visibility:"
@@ -5859,8 +5849,7 @@ msgstr "Não enviado"
 msgid ""
 "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 msgstr ""
-"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5; "
-"<span class='notranslate'>{heading6}</span> =h6"
+"{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -8030,9 +8019,8 @@ msgid ""
 "This subsection is configured as \\\"%(gradingType)s\\\", which doesn't "
 "exist in the current grading policy."
 msgstr ""
-"Esta subseção está configurada como \\&quot; <span "
-"class='notranslate'>%(gradingType)s</span> \\&quot;, que não existe na "
-"política de notas atual."
+"Esta subseção está configurada como \\\"%(gradingType)s\\\", que não existe "
+"na política de notas atual."
 
 #: cms/templates/js/course-outline.underscore:457
 #: cms/templates/js/xblock-outline.underscore:57
@@ -8221,9 +8209,8 @@ msgid ""
 "The number of {type} assignments defined here does not match the current "
 "number of {type} assignments in the course:"
 msgstr ""
-"O número de atribuições <span class='notranslate'>{type}</span> definido "
-"aqui não corresponde ao número atual de atribuições <span "
-"class='notranslate'>{type}</span> no curso:"
+"O número de atribuições {type} definidas aqui não corresponde ao número "
+"atual de atribuições {type} no curso:"
 
 #: cms/templates/js/course_grade_policy.underscore:47
 msgid "There are no assignments of this type in the course."
@@ -8231,17 +8218,14 @@ msgstr "Não há tarefas deste tipo no curso."
 
 #: cms/templates/js/course_grade_policy.underscore:51
 msgid "{assignment_count} {type} assignment(s) found:"
-msgstr ""
-"{assignment_count} <span class='notranslate'>{type}</span> atribuição(ões) "
-"encontrada(s):"
+msgstr "{assignment_count} atribuição(ões) {type} encontrada(s):"
 
 #: cms/templates/js/course_grade_policy.underscore:71
 msgid ""
 "The number of {type} assignments in the course matches the number defined "
 "here."
 msgstr ""
-"O número de atribuições <span class='notranslate'>{type}</span> no curso "
-"corresponde ao número definido aqui."
+"O número de atribuições {type} no curso corresponde ao número definido aqui."
 
 #: cms/templates/js/course_info_handouts.underscore:3
 msgid "Course Handouts"
@@ -8771,8 +8755,8 @@ msgid ""
 "If a learner starts on {startDate}, this subsection will be due on "
 "{projectedDueIn}."
 msgstr ""
-"Se um aluno começar em {startDate}, esta subseção vencerá em <span "
-"class='notranslate'>{projectedDueIn}</span> ."
+"Se um aluno começar em {startDate}, esta subseção irá expirar em "
+"{projectedDueIn}."
 
 #: cms/templates/js/self-paced-due-date-editor.underscore:23
 msgid ""
@@ -9047,7 +9031,7 @@ msgid ""
 msgstr ""
 "Este exame supervisionado foi liberado para os alunos. Você não pode "
 "convertê-lo em outro tipo de exame especial. Você pode reverter esta "
-"subseção para um exame básico selecionando &#39;Nenhum&#39; ou um exame "
+"subseção para um exame básico selecionando 'Nenhum' ou um exame "
 "cronometrado, mas NÃO poderá configurá-lo como um exame supervisionado no "
 "futuro."
 
@@ -9081,8 +9065,8 @@ msgstr ""
 "Os exames supervisionados são cronometrados e gravam um vídeo de cada aluno "
 "fazendo o exame. Os vídeos são revisados para garantir que os alunos sigam "
 "todas as regras do exame. Observe que definir este exame como supervisionado"
-" alterará as configurações de visibilidade para &quot;Ocultar conteúdo após "
-"a data de vencimento&quot;."
+" alterará as configurações de visibilidade para \"Ocultar conteúdo após a "
+"data de vencimento\"."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid "Onboarding"
@@ -11331,8 +11315,8 @@ msgid ""
 "When your face is in position, use the Take Photo button {icon} below to "
 "take your photo."
 msgstr ""
-"Quando seu rosto estiver em posição, use o botão Tirar foto {icone} abaixo "
-"para tirar foto."
+"Quando seu rosto estiver em posição, use o botão Tirar Foto {icon} abaixo "
+"para tirar a foto."
 
 #: lms/templates/verify_student/face_photo_step.underscore:25
 msgid "To take a successful photo, make sure that:"
@@ -11351,8 +11335,8 @@ msgid ""
 "To take the photo of your face, click on the camera button {icon}. If you "
 "need to try again, click 'Retake Photo'."
 msgstr ""
-"Para tirar foto do seu rosto, clique no botão câmera {icone}, se precisar "
-"tentar novamente, clique 'Tire a foto novamente'. "
+"Para tirar foto do seu rosto, clique no botão da câmera {icon}. Se precisar "
+"tentar novamente, clique 'Tire a foto novamente'."
 
 #: lms/templates/verify_student/face_photo_step.underscore:38
 #: lms/templates/verify_student/id_photo_step.underscore:30
@@ -11495,7 +11479,7 @@ msgstr "Certifique-se que o documento esteja bem iluminado"
 #: lms/templates/verify_student/id_photo_step.underscore:22
 msgid "Once in position, use the Take Photo button {icon} to capture your ID"
 msgstr ""
-"Uma vez posicionado, use o Botão Tirar foto {icone} para capturar sua "
+"Uma vez posicionado, use o botão Tirar Foto {icon} para capturar sua "
 "identidade"
 
 #: lms/templates/verify_student/id_photo_step.underscore:24
