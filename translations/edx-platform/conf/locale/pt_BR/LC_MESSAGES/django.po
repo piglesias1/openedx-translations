@@ -25707,8 +25707,8 @@ msgid ""
 msgstr ""
 "Clique para exibir a configuração de avaliação do curso. A configuração de "
 "avaliação é o detalhamento das subseções avaliadas do curso (como exames e "
-"conjuntos de problemas) e pode ser alterada na página &#39;Avaliação&#39; "
-"(em &#39;Configurações&#39;) no Studio."
+"conjuntos de problemas), e pode ser alterada na página 'Avaliação' (em "
+"'Configurações') no Studio."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:74
 msgid "Click to download a CSV of                 anonymized student IDs:"

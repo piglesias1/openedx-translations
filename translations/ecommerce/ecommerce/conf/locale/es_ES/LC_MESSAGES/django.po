@@ -651,7 +651,7 @@ msgid ""
 "consumed({consumed_discount:.2f}) value."
 msgstr ""
 "Asegúrese de que el nuevo valor debe ser mayor o igual que el valor "
-"consumido ({descuento_consumido: .2f})."
+"consumido({consumed_discount:.2f})."
 
 #: enterprise/forms.py:265
 #, python-brace-format
@@ -1846,7 +1846,7 @@ msgstr "Transacciones de reembolso"
 #: management/views.py:53
 #, python-brace-format
 msgid "{action} is not a valid action."
-msgstr "{acción} Es una acción no válida"
+msgstr "{action} es una acción no válida"
 
 #: programs/benefits.py:27
 #, python-brace-format
