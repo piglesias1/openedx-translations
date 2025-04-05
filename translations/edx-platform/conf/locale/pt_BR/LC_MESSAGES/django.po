@@ -11966,7 +11966,7 @@ msgstr "Data que os certificados se tornam disponíveis aos estudantes"
 
 #: xmodule/course_block.py:354
 msgid "Cosmetic Course Display Price"
-msgstr "Exibir o Preço do Curso de Cosméticos"
+msgstr "Preço de exibição ilustrativa do curso"
 
 #: xmodule/course_block.py:356
 msgid ""
@@ -12089,14 +12089,14 @@ msgid ""
 "\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 msgstr ""
 "Insira as categorias de discussão no seguinte formato: \"NomeDaCategoria\": "
-"{\"id\": \"i4x-NomeDaInstituição-NúmeroDoCurso-Curso-RodadaDoCurso\"}. Por "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Por "
 "exemplo, uma categoria de discussão pode ser \"Modo Lídio\": {\"id\": "
-"\"i4x-UniversidadeX-MUS101-Curso-2015_T1\"}. O valor \"id\" para cada "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. O valor \"id\" para cada "
 "categoria deve ser exclusivo. Nos valores \"id\", os únicos caracteres "
 "especiais suportados são sublinhado, hífen e ponto final. Você também pode "
 "especificar uma categoria como padrão para novas postagens na página "
-"Discussão definindo seu atributo \"padrão\" como verdadeiro. Por exemplo, "
-"\"Modo Lídio\": {\"id\": \"i4x-UniversidadeX-MUS101-Curso-2015_T1\", "
+"Discussão definindo seu atributo \"default\" como verdadeiro. Por exemplo, "
+"\"Modo Lídio\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", "
 "\"default\": true}."
 
 #: xmodule/course_block.py:434
@@ -15785,7 +15785,7 @@ msgstr "Politicas de Acessibilidade do Studio"
 #: cms/templates/asset_index.html:10 cms/templates/asset_index.html:28
 #: cms/templates/widgets/header.html:128 cms/templates/widgets/header.html:133
 msgid "Files"
-msgstr "arquivos"
+msgstr "Arquivos"
 
 #: cms/templates/asset_index.html:27 cms/templates/course_info.html:39
 #: cms/templates/course_outline.html:204 cms/templates/edit-tabs.html:44
@@ -18623,7 +18623,7 @@ msgstr "Descrição do Curso"
 
 #: cms/templates/settings.html:414
 msgid "Displayed on the course details page. Limit to 1000 characters."
-msgstr "Editor de Código HTML"
+msgstr "Exibido na página de detalhes do curso. Limite de 1000 caracteres."
 
 #: cms/templates/settings.html:420
 msgid "Course Short Description"

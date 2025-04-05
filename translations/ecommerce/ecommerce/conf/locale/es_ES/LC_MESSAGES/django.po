@@ -651,7 +651,7 @@ msgid ""
 "consumed({consumed_discount:.2f}) value."
 msgstr ""
 "Asegúrese de que el nuevo valor debe ser mayor o igual que el valor "
-"consumido({consumed_discount:.2f})."
+"consumido ({consumed_discount:.2f})."
 
 #: enterprise/forms.py:265
 #, python-brace-format
