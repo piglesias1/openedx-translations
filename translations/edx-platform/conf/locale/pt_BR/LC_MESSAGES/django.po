@@ -3647,8 +3647,7 @@ msgstr "Entrar em Contato com {platform_name}"
 #: lms/djangoapps/certificates/views/webview.py:238
 #, python-brace-format
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr ""
-"Reconhecimento da {platform_name} para a realização dos seguintes estudantes"
+msgstr "{platform_name} reconhece a realização do seguinte aluno"
 
 #. Translators:  This text represents the description of course
 #: lms/djangoapps/certificates/views/webview.py:256
@@ -12094,7 +12093,7 @@ msgstr ""
 "\"i4x-UniversityX-MUS101-course-2015_T1\"}. O valor \"id\" para cada "
 "categoria deve ser exclusivo. Nos valores \"id\", os únicos caracteres "
 "especiais suportados são sublinhado, hífen e ponto final. Você também pode "
-"especificar uma categoria como padrão para novas postagens na página "
+"especificar uma categoria como padrão para novas publicações na página "
 "Discussão definindo seu atributo \"default\" como verdadeiro. Por exemplo, "
 "\"Modo Lídio\": {\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", "
 "\"default\": true}."
@@ -12839,8 +12838,8 @@ msgid ""
 "default."
 msgstr ""
 "Especifique as opções de compartilhamento de vídeo para o curso. Isso pode "
-"ser definido para um dos três valores: &#39;all-on&#39;, &#39;all-off&#39; e"
-" &#39;per-video&#39;. com &#39;por vídeo&#39; como padrão."
+"ser definido para um dos três valores: 'all-on', 'all-off' e 'per-video', "
+"com 'per-video' como padrão."
 
 #: xmodule/course_block.py:997
 msgid "Force Flexible Grading for Peer ORAs"
