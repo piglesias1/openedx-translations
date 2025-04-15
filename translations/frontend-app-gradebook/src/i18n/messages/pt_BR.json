@@ -46,7 +46,7 @@
   "gradebook.GradesView.editFilterLabel": "Editar filtros",
   "gradebook.GradesTab.usersVisibilityLabel": "Mostrando {filteredUsers} do total de alunos {totalUsers}",
   "gradebook.GradesView.table.headings.fullName": "Nome completo",
-  "gradebook.GradesView.table.headings.email": "e-mail",
+  "gradebook.GradesView.table.headings.email": "E-mail",
   "gradebook.GradesView.table.headings.totalGrade": "Nota total (%)",
   "gradebook.GradesView.table.headings.username": "Nome de usuário",
   "gradebook.GradesView.table.labels.studentKey": "Chave do aluno",

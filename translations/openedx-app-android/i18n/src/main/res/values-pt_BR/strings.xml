@@ -10,7 +10,7 @@
 	<string name="course.course_units">Unidades curriculares</string>
 	<string name="course.course_subsections">Subseções do curso</string>
 	<string name="course.course_videos">Vídeos</string>
-	<string name="course.course_you_earned_certificate">Parabéns, você ganhou este certificado de curso em &amp;quot; %s &amp;quot;.</string>
+	<string name="course.course_you_earned_certificate">Parabéns, você ganhou este certificado de curso em \"%s\".</string>
 	<string name="course.course_view_certificate">Ver certificado</string>
 	<string name="course.course_navigation_prev">Anterior</string>
 	<string name="course.course_navigation_prev_unit">Unidade Anterior</string>
@@ -26,7 +26,7 @@
 	<string name="course.course_find_important_info">Encontre informações importantes sobre o curso</string>
 	<string name="course.course_latest_news">Fique por dentro das últimas notícias</string>
 	<string name="course.course_good_job">Bom trabalho!</string>
-	<string name="course.course_section_finished">Você completou &amp;quot; %s &amp;quot;.</string>
+	<string name="course.course_section_finished">Você completou \"%s\".</string>
 	<string name="course.course_back_to_outline">Voltar ao esboço</string>
 	<string name="course.course_next_section">Próxima seção</string>
 	<string name="course.course_not_started">Este curso ainda não começou.</string>
@@ -38,7 +38,7 @@
 	<string name="course.course_subtitles">Legendas</string>
 	<string name="course.course_continue_with">Continue com:</string>
 	<string name="course.course_resume">Retomar</string>
-	<string name="course.course_to_proceed">Para prosseguir com &amp;quot; %s &amp;quot; pressione &amp;quot;Próxima seção&amp;quot;.</string>
+	<string name="course.course_to_proceed">Para prosseguir com \"%s\", pressione \"Próxima seção\".</string>
 	<string name="course.course_gated_content_label">Parte do conteúdo desta parte do curso está bloqueada apenas para usuários atualizados.</string>
 	<string name="course.course_change_quality_when_downloading">Você não pode alterar a qualidade do download do vídeo quando todos os vídeos estão sendo baixados</string>
 	<string name="course.course_dates_shifted_message">Datas alteradas</string>
@@ -61,7 +61,7 @@
 	<string name="course.course_download_big_files_confirmation_text">Os vídeos que você selecionou têm mais de 1 GB. Quer baixar esses vídeos\?</string>
 	<string name="course.course_delete_while_downloading_confirmation_text" formatted="false">Desligar o botão interromperá o download e excluirá todos os vídeos para \"%s\"\?</string>
 	<string name="course.course_delete_downloads_confirmation_text" formatted="false">Tem certeza que deseja excluir todos os videos para \"%s\"\?</string>
-	<string name="course.course_delete_download_confirmation_text" formatted="false">Tem certeza de que deseja excluir o(s) vídeo(s) de &amp;quot; %s &amp;quot;\?</string>
+	<string name="course.course_delete_download_confirmation_text" formatted="false">Tem certeza de que deseja excluir o(s) vídeo(s) de \"%s\"\?</string>
 	<string name="course.course_download_no_internet_dialog_description">O download deste conteúdo requer uma conexão ativa com a internet. Conecte-se à internet e tente novamente.</string>
 	<string name="course.course_wifi_required">Wi-Fi necessário</string>
 	<string name="course.course_download_wifi_required_dialog_description">O download deste conteúdo requer uma conexão WiFi ativa. Conecte-se a uma rede WiFi e tente novamente.</string>
@@ -71,7 +71,7 @@
 	<string name="course.course_download_on_cellural">Baixar no celular\?</string>
 	<string name="course.course_download_on_cellural_dialog_description">O download deste conteúdo usará %1$s de dados celulares.</string>
 	<string name="course.course_download_remove_offline_content">Remover conteúdo offline\?</string>
-	<string name="course.course_download_remove_dialog_description">Remover este conteúdo liberará %1$s .</string>
+	<string name="course.course_download_remove_dialog_description">Remover este conteúdo liberará %1$s.</string>
 	<string name="course.course_download">Download</string>
 	<string name="course.course_remove">Remover</string>
 	<string name="course.course_device_storage_full">Armazenamento do dispositivo cheio</string>

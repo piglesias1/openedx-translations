@@ -542,8 +542,7 @@ msgstr "Los parámetros personalizados deben ser una lista"
 
 #: lti_xblock.py:688
 msgid "Custom Parameters should be strings in \"x=y\" format."
-msgstr ""
-"Los parámetros personalizados deben ser cadenas en formato &quot;x=y&quot;."
+msgstr "Los parámetros personalizados deben ser cadenas en formato \"x=y\""
 
 #: lti_xblock.py:698
 msgid ""
@@ -551,7 +550,7 @@ msgid ""
 "\"x:y\")."
 msgstr ""
 "Se debe establecer un ID de configuración reutilizable cuando se utiliza una"
-" configuración externa (Ejemplo: &quot;x:y&quot;)."
+" configuración externa (Ejemplo: \"x:y\")."
 
 #: lti_xblock.py:721
 msgid ""
@@ -570,7 +569,7 @@ msgid ""
 "string."
 msgstr ""
 "No se pudo analizar el pasaporte LTI: {lti_passport!r}. Debe ser la cadena "
-"&quot;id:key:secret&quot;."
+"\"id:key:secret\"."
 
 #: lti_xblock.py:895 lti_xblock.py:909 lti_xblock.py:925
 msgid "Could not get user id for current request"
@@ -583,7 +582,7 @@ msgid ""
 "string."
 msgstr ""
 "No se pudo analizar el parámetro personalizado: {custom_parameter!r}. Debe "
-"ser una cadena &quot;x=y&quot;."
+"ser una cadena \"x=y\"."
 
 #: lti_xblock.py:1423
 msgid "[LTI]: Real user not found against anon_id: {}"
@@ -648,7 +647,7 @@ msgid ""
 "\"x:y\" format."
 msgstr ""
 "La configuración LTI que utiliza una configuración reutilizable necesita una"
-" ID externa en formato &quot;x:y&quot;."
+" ID externa en formato \"x:y\"."
 
 #: models.py:267
 msgid ""
