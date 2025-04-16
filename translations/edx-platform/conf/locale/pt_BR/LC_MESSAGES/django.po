@@ -2333,13 +2333,11 @@ msgstr "Dezembro"
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
 "The file must end with one of the following extensions: '{file_types}'."
-msgstr[0] "O arquivo deve terminar com a extensão &#39;{file_types}&#39;."
+msgstr[0] "O arquivo deve terminar com a extensão '{file_types}'."
 msgstr[1] ""
-"O arquivo deve terminar com uma das seguintes extensões: "
-"&#39;{file_types}&#39;."
+"O arquivo deve terminar com uma das seguintes extensões: '{file_types}'."
 msgstr[2] ""
-"O arquivo deve terminar com uma das seguintes extensões: "
-"&#39;{file_types}&#39;."
+"O arquivo deve terminar com uma das seguintes extensões: '{file_types}'."
 
 #: common/djangoapps/util/file.py:73
 #, python-brace-format
@@ -3952,11 +3950,11 @@ msgstr "Não há mais vagas"
 
 #: lms/djangoapps/course_home_api/outline/views.py:635
 msgid "'course_id' is required."
-msgstr "&#39;course_id&#39; é obrigatório."
+msgstr "'course_id' é obrigatório."
 
 #: lms/djangoapps/course_home_api/outline/views.py:639
 msgid "Only 'course_id' is expected."
-msgstr "Apenas &#39;course_id&#39; é esperado."
+msgstr "Apenas 'course_id' é esperado."
 
 #: lms/djangoapps/course_home_api/outline/views.py:645
 msgid "Welcome message successfully dismissed."
@@ -4037,10 +4035,9 @@ msgid ""
 "However, you are currently logged in as a '{active_enterprise_name}' user. "
 "Please log in with '{enrollment_enterprise_name}' to access this course."
 msgstr ""
-"Você está matriculado neste curso com "
-"&#39;{enrollment_enterprise_name}&#39;. No entanto, você está conectado como"
-" um usuário &#39;{active_enterprise_name}&#39;. Faça login com "
-"&#39;{enrollment_enterprise_name}&#39; para acessar este curso."
+"Você está matriculado neste curso com '{enrollment_enterprise_name}'. No "
+"entanto, você está conectado como um usuário '{active_enterprise_name}'. Por"
+" favor, acesse com '{enrollment_enterprise_name}' para acessar este curso."
 
 #: lms/djangoapps/courseware/access_response.py:280
 msgid "You must give Data Sharing Consent for the course"
@@ -7896,7 +7893,7 @@ msgstr ""
 #: openedx/core/djangoapps/auth_exchange/forms.py:72
 #, python-format
 msgid "'%s' is not a valid scope."
-msgstr "&#39;%s&#39; não é um escopo válido."
+msgstr "'%s' não é um escopo válido."
 
 #: openedx/core/djangoapps/bookmarks/apps.py:18
 #: openedx/features/course_bookmarks/plugins.py:39
@@ -8155,8 +8152,7 @@ msgstr "Somente leitura"
 
 #: openedx/core/djangoapps/content_libraries/models.py:231
 msgid "One and only one of 'user' and 'group' must be set."
-msgstr ""
-"Um e apenas um de &#39;usuário&#39; e &#39;grupo&#39; deve ser definido."
+msgstr "Um e apenas um de 'usuário' e 'grupo' deve ser definido."
 
 #: openedx/core/djangoapps/content_libraries/models.py:257
 msgid "Task was created, but not queued to run."
@@ -10662,7 +10658,7 @@ msgstr ""
 
 #: openedx/features/course_experience/api/v1/views.py:64
 msgid "'course_key' is required."
-msgstr "&#39;course_key&#39; é obrigatório."
+msgstr "'course_key' é obrigatório."
 
 #: openedx/features/course_experience/api/v1/views.py:98
 #: openedx/features/course_experience/api/v1/views.py:101
@@ -11904,8 +11900,8 @@ msgstr ""
 "A mensagem que é mostrada aos alunos quando nem todas as condições são "
 "atendidas para mostrar o conteúdo desse bloco condicional. Inclua {link} no "
 "texto da sua mensagem para dar aos alunos um link direto para as unidades "
-"necessárias. Por exemplo, &#39;Você deve completar {link} antes de poder "
-"acessar esta unidade&#39;."
+"necessárias. Por exemplo, 'Você deve completar {link} antes de poder acessar"
+" esta unidade'."
 
 #: xmodule/conditional_block.py:131
 #, python-brace-format
@@ -13092,8 +13088,8 @@ msgid ""
 "Determines whether a 'Reset Problems' button is shown, so users may reset "
 "their answers and reshuffle selected items."
 msgstr ""
-"Determina se um botão &#39;Redefinir problemas&#39; é exibido, para que os "
-"usuários possam redefinir suas respostas e embaralhar novamente os itens "
+"Determina se um botão 'Redefinir Problemas' é exibido, para que os usuários "
+"possam redefinir suas respostas e embaralhar novamente os itens "
 "selecionados."
 
 #: xmodule/item_bank_block.py:471
@@ -19290,8 +19286,8 @@ msgid ""
 "User '{user}' with e-mail {email} has requested {studio_name} course creator"
 " privileges."
 msgstr ""
-"O usuário &#39;{user}&#39; com e-mail {email} solicitou privilégios de "
-"criador do curso {studio_name} ."
+"O usuário '{user}' com e-mail '{email}' solicitou privilégios de criador do "
+"curso {studio_name} ."
 
 #: cms/templates/emails/course_creator_admin_user_pending.txt:5
 msgid "To grant or deny this request, use the course creator admin table."
@@ -25219,12 +25215,12 @@ msgid ""
 msgstr ""
 "Os TAs da Comunidade de Grupo são membros da comunidade que ajudam as "
 "equipes do curso a moderar as discussões. Os TAs da Comunidade de Grupo veem"
-" apenas as postagens dos alunos em seu grupo atribuído. Eles podem editar ou"
-" excluir postagens, limpar sinalizadores, fechar e reabrir tópicos e "
-"endossar respostas, mas apenas para postagens dos alunos em seu grupo. Suas "
-"postagens são marcadas como &#39;TA da Comunidade&#39;. Todos os usuários "
-"ainda não inscritos no curso serão inscritos automaticamente quando "
-"adicionados como TA da Comunidade de Grupo"
+" apenas as publicações dos alunos em seu grupo atribuído. Eles podem editar "
+"ou excluir publicações, limpar sinalizadores, fechar e reabrir tópicos e "
+"endossar respostas, mas apenas para publicações dos alunos em seu grupo. "
+"Suas postagens são marcadas como 'TA da Comunidade'. Todos os usuários ainda"
+" não inscritos no curso serão inscritos automaticamente quando adicionados "
+"como TA da Comunidade de Grupo"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:279
 msgid "Add Group Community TA"
@@ -25239,13 +25235,13 @@ msgid ""
 "TA'. Any users not yet enrolled in the course will be automatically enrolled"
 " when added as Community TA"
 msgstr ""
-"TAs da comunidade são membros da comunidade que ajudam as equipes do curso a"
-" moderar as discussões. Eles podem ver as postagens dos alunos em sua coorte"
-" atribuída ou trilha de inscrição, e podem editar ou excluir postagens, "
-"limpar sinalizadores, fechar ou reabrir tópicos e endossar respostas. Suas "
-"postagens são marcadas como &#39;TA da comunidade&#39;. Todos os usuários "
-"ainda não inscritos no curso serão inscritos automaticamente quando "
-"adicionados como TA da comunidade"
+"TAs da Comunidade são membros da comunidade que ajudam as equipes do curso a"
+" moderar as discussões. Eles podem ver as publicações dos alunos em sua "
+"coorte atribuída ou trilha de inscrição, e podem editar ou excluir "
+"publicações, limpar sinalizadores, fechar ou reabrir tópicos e endossar "
+"respostas. Suas publicações são marcadas como 'TA da comunidade'. Todos os "
+"usuários ainda não inscritos no curso serão inscritos automaticamente quando"
+" adicionados como TA da Comunidade"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:292
 msgid "Add Community TA"
@@ -25272,7 +25268,7 @@ msgstr "Adicionar Técnico CCX"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:13
 msgid "To use the email tool, visit the"
-msgstr "Para usar a ferramenta de e-mail, visite o"
+msgstr "Para usar a ferramenta de e-mail, visite a"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:13
 msgid "new experience"
@@ -25685,7 +25681,7 @@ msgstr "Mostrar o status das tarefas que você enviou para esse problema."
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/grading.html:11
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:10
 msgid "Note"
-msgstr "Anotação"
+msgstr "Nota"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/problem_report.html:10
 msgid ""
@@ -25711,7 +25707,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:74
 msgid "Click to download a CSV of                 anonymized student IDs:"
-msgstr "Clique para baixar um CSV de IDs de alunos anônimos:"
+msgstr "Clique para baixar um CSV de identificação anônima de alunos:"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:77
 msgid ""

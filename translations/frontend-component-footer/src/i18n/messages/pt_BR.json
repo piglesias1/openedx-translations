@@ -9,7 +9,7 @@
   "footer.edxLinks.about": "Sobre ",
   "footer.edxLinks.business": "edX para Negócios",
   "footer.edxLinks.affiliates": "Afiliados",
-  "footer.edxLinks.openEdx": "Abrir edX",
+  "footer.edxLinks.openEdx": "Open edX",
   "footer.edxLinks.careers": "Carreiras",
   "footer.edxLinks.news": "Notícias",
   "footer.legalLinks.heading": "Legal",
@@ -28,7 +28,7 @@
   "footer.mobileApp.google": "Baixe o aplicativo edX na Google Play",
   "footer.logo.altText": "Logo edX",
   "footer.logo.ariaLabel": "Página inicial do edX",
-  "footer.ariaLabel": "rodapé da página",
+  "footer.ariaLabel": "Rodapé da página",
   "authoring.footer.help.openHelp.button.label": "Procurando por ajuda com Studio?",
   "authoring.footer.help.closeHelp.button.label": "Ocultar ajuda do Studio",
   "authoring.footer.help.edxDocumentation.button.label": "documentação edX",
@@ -38,6 +38,6 @@
   "authoring.footer.help.contactUs.button.label": "Contate-nos",
   "authoring.footer.termsOfService.link.label": "Termos de Serviço",
   "authoring.footer.privacyPolicy.link.label": "Política de privacidade",
-  "authoring.footer.accessibilityRequest.link.label": "Solicitação de acomodação de acessibilidade",
+  "authoring.footer.accessibilityRequest.link.label": "Solicitação de Acomodação de Acessibilidade",
   "authoring.footer.trademark.message": "edX e Open edX, e os logotipos edX e Open edX são marcas registradas da"
 }

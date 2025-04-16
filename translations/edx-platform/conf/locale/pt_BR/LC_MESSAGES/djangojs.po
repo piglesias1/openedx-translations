@@ -10635,9 +10635,9 @@ msgstr "Criar um grupo de conteúdo"
 #, python-format
 msgid "(contains %(student_count)s student)"
 msgid_plural "(contains %(student_count)s students)"
-msgstr[0] "(contém aluno %(student_count)s )"
-msgstr[1] "(contém alunos %(student_count)s )"
-msgstr[2] "(contém alunos %(student_count)s )"
+msgstr[0] "(contém %(student_count)s aluno)"
+msgstr[1] "(contêm %(student_count)s alunos)"
+msgstr[2] "(contêm %(student_count)s alunos)"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:14
 msgid ""
@@ -10645,7 +10645,7 @@ msgid ""
 "addresses or usernames on this page."
 msgstr ""
 "Os alunos são adicionados a este grupo apenas quando você fornecer os seus "
-"endereços de e-mail ou nome de usuários nesta página"
+"endereços de e-mail ou nome de usuários nesta página."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:15
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:18
@@ -10654,7 +10654,7 @@ msgstr "O que isso significa?"
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore:17
 msgid "Learners are added to this cohort automatically."
-msgstr "Os alunos são adicionados a este grupo automaticamente"
+msgstr "Os alunos são adicionados a este grupo automaticamente."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore:2
 msgid "Select a cohort"
@@ -10689,8 +10689,8 @@ msgid ""
 msgstr ""
 "Para revisar as tarefas dos alunos deste grupo ou ver os resultados do "
 "carregamento do arquivo CSV, faça o download das informações do perfil do "
-"curso ou resultados do curso na {link_start} página de Download de dados "
-"{link_end}."
+"curso ou resultados do curso na {link_start}página de Download de "
+"dados{link_end}."
 
 #: lms/templates/instructor/instructor_dashboard_2/discussions.underscore:3
 msgid "Specify whether discussion topics are divided"
