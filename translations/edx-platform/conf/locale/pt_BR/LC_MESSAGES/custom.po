@@ -54,6 +54,9 @@ msgstr "Buscar"
 msgid "Select a file"
 msgstr "Selecione um arquivo"
 
+msgid "Choose one"
+msgstr "Selecione uma"
+
 msgid "Please select the report type and then click \"Download Report\" button"
 msgstr "Por favor, selecione o tipo de relatório e clique no botão \"Baixar Relatório\"."
 
@@ -80,3 +83,32 @@ msgstr "Relatório de dados ORA"
 
 msgid "Problem Grade report"
 msgstr "Relatório de Nota de Problema"
+
+msgid "Download Report"
+msgstr "Baixar Relatório"
+
+msgid "Problem Report"
+msgstr "Relatório de problema"
+
+msgid "Please select learner status and then click \"Download Course Grade Report\" button."
+msgstr "Por favor, selecione o status do estudante e clique no botão \"Baixar Relatório de Notas do Curso\"."
+
+msgid "Download Course Grade Report"
+msgstr "Baixar Relatório de Notas do Curso"
+
+msgid "Learner status"
+msgstr "Status do estudante"
+
+msgid "Verified Learners Only"
+msgstr "Somente Estudantes Verificados"
+
+msgid "View certificates"
+msgstr "Visualizar certificados"
+
+msgid "Download CSV of certificates"
+msgstr "Baixar CSV de certificados"
+
+msgid "Please, select a certificate report type option and then click \"Download Report\" button."
+msgstr "Por favor, selecione uma opção de tipo de relatório de certificado e clique no botão \"Baixar Relatório\"."
+
+
