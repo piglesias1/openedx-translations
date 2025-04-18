@@ -1,0 +1,5 @@
+{
+    "footer.copyright.text": "Direitos autorais \u00a9{year}. Todos os direitos reservados.",
+    "footer.poweredby.text": "Desenvolvido por",
+    "footer.tutorlogo.altText": "Executado no Tutor"
+}
