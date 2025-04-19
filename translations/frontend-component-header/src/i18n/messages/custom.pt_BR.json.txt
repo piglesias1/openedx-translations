@@ -1,0 +1,4 @@
+{
+  "header.menu.mycourses.label": "Meus Cursos",
+  "header.menu.discover.label": "Descubra Novos"
+}
