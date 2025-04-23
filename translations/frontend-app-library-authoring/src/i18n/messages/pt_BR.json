@@ -232,7 +232,7 @@
   "library.list.filter.options.type.complex": "Complexo (beta)",
   "library.list.filter.options.type.video": "Vídeo (beta)",
   "library.list.filter.options.type.problem": "Problema (beta)",
-  "library.list.aside.title": "Novo no Estúdio?",
+  "library.list.aside.title": "Novo no Studio?",
   "library.list.aside.text": "Clique em &quot;Procurando ajuda com o Studio&quot; na parte inferior da página para acessar nossa documentação continuamente atualizada e outros recursos do Studio.",
   "library.list.aside.help.link": "Primeiros passos com o Studio",
   "library.list.breadcrumbs.libraries": "Bibliotecas",
@@ -247,7 +247,7 @@
   "library.header.account.label": "Conta",
   "library.header.account.navigation": "Navegação da conta",
   "library.header.account.signedinas": "No momento logado como:",
-  "library.header.account.studiohome": "Casa estúdio",
+  "library.header.account.studiohome": "Página inicial do Studio",
   "library.header.account.maintenance": "Manutenção",
   "library.header.account.signout": "sair"
 }

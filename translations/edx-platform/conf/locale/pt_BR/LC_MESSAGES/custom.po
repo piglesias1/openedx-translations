@@ -111,4 +111,6 @@ msgstr "Baixar CSV de certificados"
 msgid "Please, select a certificate report type option and then click \"Download Report\" button."
 msgstr "Por favor, selecione uma opção de tipo de relatório de certificado e clique no botão \"Baixar Relatório\"."
 
+msgid "Already Enrolled"
+msgstr "Já Inscrito"
 

@@ -1086,9 +1086,30 @@ msgstr ""
 msgid "Force Publish Course"
 msgstr "Forçar Publicação do Curso"
 
+#: cms/djangoapps/maintenance/views.py:38
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr ""
+"Às vezes, ramificações rascunho e publicado de um curso podem ficar "
+"dessincronizados. O comando \"Forçar Publicação do Curso\" redefine a "
+"ramificaçõa publicado de um curso para apontar para a ramificação rascunho, "
+"forçando efetivamente a publicação do curso. Esta visualização executa o "
+"comando de forçar publicação."
+
 #: cms/djangoapps/maintenance/views.py:45
 msgid "Edit Announcements"
 msgstr "Editar Anúncios"
+
+#: cms/djangoapps/maintenance/views.py:48
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+"Esta visualização mostra o editor de anúncios para criar ou alterar anúncios"
+" que são mostrados no lado direito do Painel de Controle."
 
 #: cms/djangoapps/maintenance/views.py:56
 msgid "Please provide course id."
@@ -15974,7 +15995,7 @@ msgstr "Visualizar o material do curso no LMS"
 
 #: cms/templates/container.html:208
 msgid "Collapse All"
-msgstr "Retrair Tudo"
+msgstr "Recolher Tudo"
 
 #: cms/templates/container.html:238
 msgid "Adding components"
@@ -16360,7 +16381,7 @@ msgstr "Reendereçar"
 
 #: cms/templates/course_outline.html:225
 msgid "Collapse All Sections"
-msgstr "Contrair todas as seções"
+msgstr "Recolher Todas as Seções"
 
 #: cms/templates/course_outline.html:226
 msgid "Expand All Sections"
@@ -22433,7 +22454,7 @@ msgstr "Você está inscrito neste curso"
 #: lms/templates/courseware/course_about.html:98
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
 msgid "View Course"
-msgstr "Visualizar curso "
+msgstr "Visualizar Curso "
 
 #: lms/templates/courseware/course_about.html:89
 msgid "Enrollment in this course is by invitation only"
@@ -23166,7 +23187,7 @@ msgstr "Configurações do e-mail"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:313
 msgid "View Archived Course"
-msgstr "Visualizar curso arquivado"
+msgstr "Visualizar Curso Arquivado"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:352
 msgid "Related Programs"
@@ -24894,7 +24915,7 @@ msgstr "Painel de controle do instrutor"
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html:120
 msgid "View Course in Studio"
-msgstr "Visualizar curso no Studio"
+msgstr "Visualizar Curso no Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:17

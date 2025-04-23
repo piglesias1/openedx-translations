@@ -3,7 +3,7 @@
   "gradebook.BulkManagementHistoryView.heading": "Histórico de gerenciamento em massa",
   "gradebook.BulkManagementHistoryView": "Abaixo está um registro das importações de notas anteriores. Para baixar um CSV do seu boletim de notas e importar notas para substituição, retorne ao Boletim. Observe que, após importar as notas, pode levar alguns segundos para processar a substituição.",
   "gradebook.BulkManagementHistoryView.successDialog": "Processamento de CSV. Os uploads de arquivos podem levar vários minutos para serem concluídos.",
-  "gradebook.GradebookFilters.assignmentsFilterLabel": "atribuições",
+  "gradebook.GradebookFilters.assignmentsFilterLabel": "Atribuições",
   "gradebook.GradebookFilters.overallGradeFilterLabel": "Nota geral",
   "gradebook.GradebookFilters.studentGroupsFilterLabel": "Grupos de Estudantes",
   "gradebook.GradebookFilters.includeCourseTeamMembersFilterLabel": "Incluir membros da equipe do curso",

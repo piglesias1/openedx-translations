@@ -641,7 +641,7 @@
   "lcm.budgets.budget.card.term.expiring": "Expirando",
   "lcm.budgets.budget.card.term.expired": "Expirado",
   "lcm.budgets.budget.card.term.retired": "Desativado",
-  "people-management.page.create-group.section.header": "",
+  "people-management.page.create-group.section.header": "Criar um grupo customizado de membros",
   "learnerCreditManagement.budgetDetail.membersTab.label": "Membros do orçamento",
   "learnerCreditManagement.budgetDetail.membersTab.description": "Os membros escolhem o que aprender no catálogo e gastar do orçamento para se inscrever.",
   "learnerCreditManagement.budgetDetail.membersTab.membersTable.all": "todos ( {itemCounts} )",
