@@ -9,7 +9,7 @@
   },
   "dropzone.Dropzone.invalidType": {
     "developer_comment": "Uma mensagem exibida quando um arquivo com tipo MIME errado está sendo carregado.",
-    "string": "O tipo de arquivo deve ser {count, plural, one { {typeString} file} other {one of {typeString} files}}."
+    "string": "O tipo de arquivo deve ser {count, plural, one {arquivo {typeString}} other {um dos arquivos {typeString}}}."
   },
   "dropzone.Dropzone.multipleDraggedError": {
     "developer_comment": "Uma mensagem exibida quando vários arquivos são arrastados para o Dropzone.",
@@ -49,7 +49,7 @@
   },
   "pgn.DataTable.BaseSelectionStatus.clearSelectionText": {
     "developer_comment": "Um rótulo do botão limpar todas as seleções.",
-    "string": "Seleção clara"
+    "string": "Limpar seleção"
   },
   "pgn.DataTable.BaseSelectionStatus.selectAllText": {
     "developer_comment": "Um rótulo para o botão Selecionar tudo.",
@@ -65,11 +65,11 @@
   },
   "pgn.DataTable.ExpandAll.collapseAllLabel": {
     "developer_comment": "Rótulo de um botão de ação que recolhe todas as linhas expansíveis do DataTable.",
-    "string": "contrair tudo"
+    "string": "Recolher tudo"
   },
   "pgn.DataTable.ExpandAll.expandAllLabel": {
     "developer_comment": "Rótulo de um botão de ação que expande todas as linhas expansíveis do DataTable.",
-    "string": "expandir tudo"
+    "string": "Expandir tudo"
   },
   "pgn.DataTable.FilterStatus.clearFiltersText": {
     "developer_comment": "Um texto que aparece no botão `Limpar filtros`",
@@ -97,7 +97,7 @@
   },
   "pgn.Dropzone.DefaultContent.fileTypeRestriction": {
     "developer_comment": "Uma mensagem mostrada quando o arquivo é carregado deve ser de determinado(s) tipo(s).",
-    "string": "Carregar {contagem, plural, um {arquivos {firstPart} } outro {arquivos {firstPart} ou {secondPart} }}"
+    "string": "Carregar {count, plural, one {arquivos {firstPart}} other {arquivos {firstPart} ou {secondPart}}}"
   },
   "pgn.Dropzone.DefaultContent.label": {
     "developer_comment": "Um texto que aparece como um rótulo para entrada do componente Dropzone.",

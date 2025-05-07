@@ -19359,7 +19359,7 @@ msgid ""
 "Your {task_name} task has completed with the status '{task_status}'. Sign in"
 " to view the details of your task or download any files created."
 msgstr ""
-"Sua tarefa {task_name} foi completada com o status '{task_status}'. Entre "
+"Sua tarefa '{task_name}' foi completada com o status '{task_status}'. Entre "
 "para ver os detalhes da sua tarefa ou faça o download de todos os arquivos "
 "criados."
 
