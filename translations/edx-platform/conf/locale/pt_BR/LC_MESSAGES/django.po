@@ -9263,7 +9263,7 @@ msgstr ""
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/subject.txt:4
 #, python-format
 msgid "Welcome to week %(week_num)s"
-msgstr "Bem vindo à semana %(week_num)s"
+msgstr "Bem-vindo à semana %(week_num)s"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/instructorledcourseupdate/email/body.html:18
 #, python-brace-format
@@ -17108,7 +17108,7 @@ msgstr "Bem-vindo(a)"
 
 #: cms/templates/howitworks.html:20
 msgid "Welcome to {studio_name}"
-msgstr "Bem vindo ao {studio_name}"
+msgstr "Bem-vindo ao {studio_name}"
 
 #: cms/templates/howitworks.html:23
 msgid ""
@@ -17280,8 +17280,8 @@ msgid ""
 " it to go live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
 msgstr ""
-"SeçãoAo finalizar uma {strong_start}seção{strong_end}, escolha quando ela "
-"irá ao ar e o {studio_name} fará o resto. Construa seu curso gradualmente."
+"Ao finalizar uma {strong_start}seção{strong_end}, escolha quando ela irá ao "
+"ar e o {studio_name} fará o resto. Construa seu curso gradualmente."
 
 #: cms/templates/howitworks.html:147
 msgid "Work in Teams"
