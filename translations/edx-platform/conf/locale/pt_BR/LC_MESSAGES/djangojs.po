@@ -8723,7 +8723,7 @@ msgstr "Nota: Não oculte tarefas com nota após elas terem sido liberadas."
 
 #: cms/templates/js/publish-xblock.underscore:137
 msgid "Copy Unit"
-msgstr "Copiar postagem"
+msgstr "Copiar Unidade"
 
 #: cms/templates/js/release-date-editor.underscore:1
 msgid "Release Date and Time"
@@ -9475,7 +9475,8 @@ msgstr "Número da página do total de %(total_pages)s"
 
 #: common/static/common/templates/components/paging-footer.underscore:11
 msgid "Enter the page number you'd like to quickly navigate to."
-msgstr "Entre com o número da página que você gostaria de acessar rapidamente"
+msgstr ""
+"Entre com o número da página que você gostaria de acessar rapidamente."
 
 #: common/static/common/templates/components/paging-header.underscore:11
 msgid "Sorted by"
@@ -9580,9 +9581,9 @@ msgstr "Atualizar publicação"
 #, python-format
 msgid "Show Comment (%(num_comments)s)"
 msgid_plural "Show Comments (%(num_comments)s)"
-msgstr[0] "Mostrar comentário ( %(num_comments)s )"
-msgstr[1] "Mostrar comentários ( %(num_comments)s )"
-msgstr[2] "Mostrar comentários ( %(num_comments)s )"
+msgstr[0] "Mostrar comentário (%(num_comments)s)"
+msgstr[1] "Mostrar comentários (%(num_comments)s)"
+msgstr[2] "Mostrar comentários (%(num_comments)s)"
 
 #: common/static/common/templates/discussion/templates.underscore:164
 #: common/static/common/templates/discussion/templates.underscore:166

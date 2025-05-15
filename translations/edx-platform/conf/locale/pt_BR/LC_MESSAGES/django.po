@@ -672,15 +672,15 @@ msgstr "Vídeo"
 
 #: cms/djangoapps/contentstore/views/component.py:262
 msgid "Open Response"
-msgstr "Resposta aberta"
+msgstr "Resposta Aberta"
 
 #: cms/djangoapps/contentstore/views/component.py:263
 msgid "Legacy Library"
-msgstr "legado biblioteca"
+msgstr "Biblioteca Legada"
 
 #: cms/djangoapps/contentstore/views/component.py:265
 msgid "Drag and Drop"
-msgstr "Arraste e Solte"
+msgstr "Arrastar e Soltar"
 
 #: cms/djangoapps/contentstore/views/component.py:299
 msgid "Blank"
@@ -693,7 +693,7 @@ msgstr "Somente Avaliação por Pares"
 #: cms/djangoapps/contentstore/views/component.py:306
 #: xmodule/capa_block.py:182
 msgid "Blank Problem"
-msgstr "Problema em branco"
+msgstr "Problema em Branco"
 
 #: cms/djangoapps/contentstore/views/component.py:430
 #: xmodule/video_block/video_block.py:152
@@ -4095,11 +4095,11 @@ msgstr ""
 
 #: lms/djangoapps/courseware/courses.py:744
 msgid "Self Assessment"
-msgstr "Auto-Avaliação"
+msgstr "Autoavaliação"
 
 #: lms/djangoapps/courseware/courses.py:746
 msgid "Peer Assessment"
-msgstr "Avaliação pelos Colegas"
+msgstr "Avaliação pelos Pares"
 
 #: lms/djangoapps/courseware/courses.py:748
 msgid "Staff Assessment"
@@ -4379,8 +4379,8 @@ msgstr "Classificação por pares flexível para ORAs"
 msgid ""
 "Course level settings for Flexible Peer Grading Open Response Assessments."
 msgstr ""
-"Configurações de nível de curso para avaliações de resposta aberta de "
-"classificação por pares flexíveis."
+"Configurações de nível de curso para Avaliações de Resposta Aberta com "
+"Avaliação Flexível por Pares."
 
 #: lms/djangoapps/courseware/tabs.py:36
 #: lms/djangoapps/courseware/views/views.py:2198
@@ -13119,13 +13119,13 @@ msgid ""
 "The problem bank has been configured to show {count} problems. Please "
 "specify a positive number of problems, or specify -1 to show all problems."
 msgstr ""
-"O banco de problemas foi configurado para mostrar problemas {count} . "
-"Especifique um número positivo de problemas ou especifique -1 para mostrar "
+"O banco de problemas foi configurado para mostrar {count} problemas. "
+"Especifique um número positivo de problemas, ou especifique -1 para mostrar "
 "todos os problemas."
 
 #: xmodule/item_bank_block.py:475 xmodule/item_bank_block.py:487
 msgid "Edit the problem bank configuration."
-msgstr "editar o problema configuração do banco ."
+msgstr "Editar a configuração do banco de problemas."
 
 #: xmodule/item_bank_block.py:483
 #, python-brace-format
@@ -13133,8 +13133,8 @@ msgid ""
 "The problem bank has been configured to show {count} problems, but only "
 "{actual} have been selected."
 msgstr ""
-"O banco de problemas foi configurado para mostrar os problemas {count} , mas"
-" apenas {actual} foram selecionados."
+"O banco de problemas foi configurado para mostrar {count} problemas, mas "
+"apenas {actual} foram selecionados."
 
 #: xmodule/library_content_block.py:51
 msgid "Any Type"
@@ -13212,7 +13212,7 @@ msgstr "Uma biblioteca ainda não foi selecionada."
 
 #: xmodule/library_content_block.py:327
 msgid "Select a Library."
-msgstr "Selecione uma Livraria. "
+msgstr "Selecione uma Biblioteca."
 
 #: xmodule/library_content_block.py:341
 #, python-brace-format
@@ -13228,19 +13228,19 @@ msgstr "Selecione outro tipo de problema."
 msgid "The specified library is configured to fetch {count} problem, "
 msgid_plural "The specified library is configured to fetch {count} problems, "
 msgstr[0] ""
-"A biblioteca especificada está configurada para buscar o problema {count} , "
+"A biblioteca especificada está configurada para buscar {count} problema, "
 msgstr[1] ""
-"A biblioteca especificada está configurada para buscar problemas {count} , "
+"A biblioteca especificada está configurada para buscar {count} problemas, "
 msgstr[2] ""
-"A biblioteca especificada está configurada para buscar problemas {count} , "
+"A biblioteca especificada está configurada para buscar {count} problemas, "
 
 #: xmodule/library_content_block.py:360
 #, python-brace-format
 msgid "but there is only {actual} matching problem."
 msgid_plural "but there are only {actual} matching problems."
-msgstr[0] "mas há apenas um problema de correspondência {actual} ."
-msgstr[1] "mas existem apenas problemas de correspondência {actual} ."
-msgstr[2] "mas existem apenas problemas de correspondência {actual} ."
+msgstr[0] "mas há apenas {actual} problema de correspondência."
+msgstr[1] "mas existem apenas {actual} problemas de correspondência."
+msgstr[2] "mas existem apenas {actual} problemas de correspondência."
 
 #: xmodule/library_content_block.py:366
 msgid "Edit the library configuration."
@@ -19188,7 +19188,7 @@ msgstr "Saiba mais sobre os textos"
 #: cms/templates/videos_index.html:13 cms/templates/videos_index.html:58
 #: cms/templates/widgets/header.html:143
 msgid "Video Uploads"
-msgstr "Upload de vídeos"
+msgstr "Carregamento de vídeos"
 
 #: cms/templates/videos_index.html:65
 msgid "Course Video Settings"

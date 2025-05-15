@@ -395,6 +395,7 @@
     "course-authoring.studio-home.organization.title": "Configurações de organização e biblioteca",
     "course-authoring.studio-home.page-load.failed.message": "Falha ao carregar a página inicial do Studio. Por favor, tente novamente mais tarde.",
     "course-authoring.studio-home.taxonomies.tab.title": "Taxonomias",
+    "course-authoring.schedule.basic.promotion.title": "Página de resumo do curso (para inscrição e acesso de alunos)",
     "VideoUploadEditor.browse": "Explorar arquivos",
     "course-authoring.pages-resources.calculator.heading": "Configurar calculadora",
     "course-authoring.pages-resources.calculator.enable-calculator.label": "Calculadora",

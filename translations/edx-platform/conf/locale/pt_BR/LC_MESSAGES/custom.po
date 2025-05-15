@@ -114,3 +114,116 @@ msgstr "Por favor, selecione uma opção de tipo de relatório de certificado e 
 msgid "Already Enrolled"
 msgstr "Já Inscrito"
 
+msgid ""
+"If you were assigned a Video ID by edX for the video to play in this "
+"component, enter the ID here. In this case, do not enter values in the "
+"Default Video URL, the Video File URLs, and the YouTube ID fields. If you "
+"were not assigned a Video ID, enter values in those other fields and ignore "
+"this field."
+msgstr ""
+"Se você recebeu um ID de Vídeo para assistir a um vídeo neste "
+"componente, digite o identificador aqui. Neste caso, não digite valores "
+"referentes ao URL Padrão do Vídeo, URL's do Arquivo de Vídeo ou o ID do "
+"YouTube. Se você não recebeu um Id de Vídeo, digite valores nos outros "
+"campos e ignore este campo."
+
+msgid ""
+"Allow students to download versions of this video in different formats if "
+"they cannot use the edX video player or do not have access to YouTube. You "
+"must add at least one non-YouTube URL in the Video File URLs field."
+msgstr ""
+"Permite que os alunos baixem versões deste vídeo em diferentes formatos caso "
+"não consigam utilizar o reprodutor de vídeo local ou não tenham acesso ao "
+"YouTube. É necessário adicionar ao menos um URL fora do YouTube no campo de "
+"URL do vídeo."
+
+msgid "Randomized Content Block"
+msgstr "Bloco de Conteúdo Aleatório"
+
+msgid "Problem Bank"
+msgstr "Banco de Problemas"
+
+msgid "{button_start}Add components{button_end} from a content library to this problem bank."
+msgstr "{button_start}Adicionar componentes{button_end} de uma biblioteca de conteúdo a este banco de problemas."
+
+msgid "You have not selected any components yet."
+msgstr "Você ainda não selecionou nenhum componente."
+
+msgid "Learners will see the selected component:"
+msgid_plural "Learners will see all of the {{ num_selected }} selected components, in random order:"
+msgstr[0] "Os alunos verão o componente selecionado:"
+msgstr[1] "Os alunos verão todos os {{ num_selected }} componentes selecionados, em ordem aleatória:"
+msgstr[2] "Os alunos verão todos os {{ num_selected }} componentes selecionados, em ordem aleatória:"
+
+msgid "Learners will see the selected component:"
+msgid_plural "Learners will see {{ max_count }} of the {{ num_selected }} selected components:"
+msgstr[0] "Os alunos verão o componente selecionado:"
+msgstr[1] "Os alunos verão {{ max_count }} dos {{ num_selected }} componentes selecionados:"
+msgstr[2] "Os alunos verão {{ max_count }} dos {{ num_selected }} componentes selecionados:"
+
+msgid "Press {link_start}View{link_end} to preview, sync/update, and/or remove the selected components."
+msgstr "Pressione {link_start}View{link_end} para visualizar, sincronizar/atualizar, e/ou remover os componentes selecionados."
+
+msgid "Press {link_start}Edit{link_end} to configure how many will be shown and other settings."
+msgstr "Pressione {link_start}Editar{link_end} para definir quantos serão mostrados e outras configurações."
+
+msgid "Blank Common Problem"
+msgstr "Problema Comum em Branco"
+
+msgid "Checkboxes with Hints and Feedback"
+msgstr "Caixas de seleção com Dicas e Comentários"
+
+msgid "Dropdown with Hints and Feedback"
+msgstr "Menu suspenso com Dicas e Comentários"
+
+msgid "Multiple Choice with Hints and Feedback"
+msgstr "Múltipla escolha com Dicas e Comentários"
+
+msgid "Numerical Input with Hints and Feedback"
+msgstr "Entrada numérica com Dicas e Comentários"
+
+msgid "Text Input with Hints and Feedback"
+msgstr "Entrada de texto com Dicas e Comentários"
+
+msgid "Custom JavaScript Display and Grading"
+msgstr "Exibição e Avaliação personalizadas em JavaScript"
+
+msgid "Custom Python-Evaluated Input"
+msgstr "Entrada personalizada avaliada por Python"
+
+msgid "Drag and Drop (Deprecated Version)"
+msgstr "Arrastar e Soltar (versão obsoleta)"
+
+msgid "Problem with Adaptive Hint"
+msgstr "Problema com a Dica Adaptável"
+
+msgid "Staff Graded Points"
+msgstr "Pontos Avaliados pela Equipe"
+
+msgid "Announcement"
+msgstr "Anúncio"
+
+msgid "Anonymous User ID"
+msgstr "ID de Usuário Anônimo"
+
+msgid "IFrame Tool"
+msgstr "Ferramenta de IFrame"
+
+msgid "Raw HTML"
+msgstr "HTML Puro"
+
+msgid "Zooming Image Tool"
+msgstr "Ferramenta de Zoom de Imagem"
+
+msgid "Self Assessment Only"
+msgstr "Somente Autoavaliação"
+
+msgid "Self Assessment to Peer Assessment"
+msgstr "Autoavaliação para Avaliação por Pares"
+
+msgid "Self Assessment to Staff Assessment"
+msgstr "Autoavaliação para Avaliação da Equipe"
+
+msgid "Staff Assessment Only"
+msgstr "Somente Avaliação da Equipe"
+
