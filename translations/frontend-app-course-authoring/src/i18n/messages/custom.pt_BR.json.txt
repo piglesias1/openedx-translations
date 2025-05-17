@@ -107,6 +107,8 @@
     "course-authoring.course-search.showMore": "Mostrar mais",
     "course-authoring.course-search.showMoreResults": "Mostrar mais resultados",
     "course-authoring.course-search.title": "Pesquisar",
+    "course-authoring.files-and-uploads.dropZone.dropMoreThanOneFile.message": "A área de arrastar e soltar aceita apenas 1 arquivo de no máximo {maxSize}MB.",
+    "course-authoring.files-and-upload.addFiles.error.fileSize": "Os arquivos enviados devem ter {maxSize}MB ou menos. Redimensione o(s) arquivo(s) e tente novamente.",
     "course-authoring.filter.problem-submenu.icon-button.alt": "Abrir filtros de tipos de problemas",
     "course-authoring.library-authoring.add-collection": "Adicionar coleção",
     "course-authoring.library-authoring.add-component": "Adicionar componente",
@@ -595,5 +597,11 @@
     "course-authoring.textbooks.header.breadcrumb.content": "Conteúdo",
     "course-authoring.textbooks.header.breadcrumb.pages-and-resources": "Páginas e recursos",
     "course-authoring.textbooks.header.breadcrumb.aria-label": "Caminho de navegação do livro didático",
-    "course-authoring.textbooks.header.new-textbook": "Novo livro didático"
+    "course-authoring.textbooks.header.new-textbook": "Novo livro didático",
+    "header.label.search.nav": "Pesquisar conteúdo",
+    "course-authoring.files-and-videos.video-upload.list-view.header.fileName": "Nome do Arquivo",
+    "course-authoring.files-and-videos.video-upload.list-view.header.videoLength": "Duração do Vídeo",
+    "course-authoring.files-and-videos.video-upload.list-view.header.transcript": "Transcrição",
+    "course-authoring.files-and-videos.video-upload.list-view.header.active": "Ativo",
+    "course-authoring.files-and-videos.video-upload.list-view.header.status": "Status"
 }
