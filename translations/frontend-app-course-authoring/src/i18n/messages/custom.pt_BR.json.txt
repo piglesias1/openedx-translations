@@ -603,5 +603,6 @@
     "course-authoring.files-and-videos.video-upload.list-view.header.videoLength": "Duração do Vídeo",
     "course-authoring.files-and-videos.video-upload.list-view.header.transcript": "Transcrição",
     "course-authoring.files-and-videos.video-upload.list-view.header.active": "Ativo",
-    "course-authoring.files-and-videos.video-upload.list-view.header.status": "Status"
+    "course-authoring.files-and-videos.video-upload.list-view.header.status": "Status",
+    "course-authoring.video-uploads.file-info.infoTab.fileId.title": "ID do arquivo"
 }

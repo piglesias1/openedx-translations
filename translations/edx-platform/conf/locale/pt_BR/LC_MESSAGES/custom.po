@@ -155,7 +155,7 @@ msgstr[0] "Os alunos verão o componente selecionado:"
 msgstr[1] "Os alunos verão todos os {{ num_selected }} componentes selecionados, em ordem aleatória:"
 msgstr[2] "Os alunos verão todos os {{ num_selected }} componentes selecionados, em ordem aleatória:"
 
-msgid "Learners will see the selected component:"
+msgid "Learners will see the selected component of the {{ max_count }}:"
 msgid_plural "Learners will see {{ max_count }} of the {{ num_selected }} selected components:"
 msgstr[0] "Os alunos verão o componente selecionado:"
 msgstr[1] "Os alunos verão {{ max_count }} dos {{ num_selected }} componentes selecionados:"
