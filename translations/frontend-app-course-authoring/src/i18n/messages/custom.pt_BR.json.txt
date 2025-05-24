@@ -107,6 +107,7 @@
     "course-authoring.course-search.showMore": "Mostrar mais",
     "course-authoring.course-search.showMoreResults": "Mostrar mais resultados",
     "course-authoring.course-search.title": "Pesquisar",
+    "course-authoring.course-outline.highlights-modal.description": "Insira de 3 a 5 destaques para incluir na mensagem de e-mail que os alunos receberão nesta seção. O limite é de 250 caracteres para cada destaque.",
     "course-authoring.files-and-uploads.dropZone.dropMoreThanOneFile.message": "A área de arrastar e soltar aceita apenas 1 arquivo de no máximo {maxSize}MB.",
     "course-authoring.files-and-upload.addFiles.error.fileSize": "Os arquivos enviados devem ter {maxSize}MB ou menos. Redimensione o(s) arquivo(s) e tente novamente.",
     "course-authoring.filter.problem-submenu.icon-button.alt": "Abrir filtros de tipos de problemas",
@@ -647,5 +648,10 @@
     "authoring.problemeditor.settings.RandomizationTypes.always": "Sempre",
     "authoring.problemeditor.settings.RandomizationTypes.never": "Nunca",
     "authoring.problemeditor.settings.RandomizationTypes.onreset": "Ao Reiniciar",
-    "authoring.problemeditor.settings.RandomizationTypes.perstudent": "Por Aluno"
+    "authoring.problemeditor.settings.RandomizationTypes.perstudent": "Por Aluno",
+    "course-authoring.files-and-uploads.files-assets.list-view.header.activeColumnLabel": "Ativo",
+    "course-authoring.files-and-uploads.files-assets.list-view.header.accessColumnLabel": "Acesso",
+    "course-authoring.files-and-uploads.files-assets.list-view.header.fileSizeColumnLabel": "Tamanho",
+    "course-authoring.files-and-uploads.files-assets.list-view.header.fileNameColumnLabel": "Nome do arquivo",
+    "course-authoring.files-and-uploads.files-assets.list-view.header.typeColumnLabel": "Tipo"
 }
