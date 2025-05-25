@@ -653,5 +653,7 @@
     "course-authoring.files-and-uploads.files-assets.list-view.header.accessColumnLabel": "Acesso",
     "course-authoring.files-and-uploads.files-assets.list-view.header.fileSizeColumnLabel": "Tamanho",
     "course-authoring.files-and-uploads.files-assets.list-view.header.fileNameColumnLabel": "Nome do arquivo",
-    "course-authoring.files-and-uploads.files-assets.list-view.header.typeColumnLabel": "Tipo"
+    "course-authoring.files-and-uploads.files-assets.list-view.header.typeColumnLabel": "Tipo",
+    "course-authoring.files-and-uploads.file-assets.info.type.file": "arquivo",
+    "course-authoring.files-and-videos.video-upload.info.type.video": "vídeo"
 }
