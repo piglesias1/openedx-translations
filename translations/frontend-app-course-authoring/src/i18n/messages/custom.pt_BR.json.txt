@@ -656,5 +656,19 @@
     "course-authoring.files-and-uploads.files-assets.list-view.header.typeColumnLabel": "Tipo",
     "course-authoring.files-and-uploads.file-assets.info.type.file": "arquivo",
     "course-authoring.files-and-videos.video-upload.info.type.video": "vídeo",
-    "course-authoring.advanced-settings.alert.notice.warning": "Cuidado"
+    "course-authoring.advanced-settings.alert.notice.warning": "Cuidado",
+    "course-authoring.pages-resources.app.progress.name": "Progresso",
+    "course-authoring.pages-resources.app.progress.description": "Mantenha os alunos envolvidos e no caminho certo durante todo o curso.",
+    "course-authoring.pages-resources.app.discussion.name": "Discussão",
+    "course-authoring.pages-resources.app.discussion.description": "Incentive a participação e o envolvimento em seu curso com discussões.",
+    "course-authoring.pages-resources.app.wiki.name": "Wiki",
+    "course-authoring.pages-resources.app.wiki.description": "Permita que os alunos acessem e colaborem com informações relacionadas ao curso.",
+    "course-authoring.pages-resources.app.calculator.name": "Calculadora",
+    "course-authoring.pages-resources.app.calculator.description": "Fornecer uma calculadora no curso para cálculos simples e complexos.",
+    "course-authoring.pages-resources.app.live.name": "Ao Vivo",
+    "course-authoring.pages-resources.app.live.description": "Ative a videoconferência na plataforma configurando o modo ao vivo.",
+    "course-authoring.pages-resources.app.textbooks.name": "Livros Didáticos",
+    "course-authoring.pages-resources.app.textbooks.description": "Crie e gerencie uma biblioteca de leituras, livros didáticos e capítulos do curso.",
+    "course-authoring.pages-resources.app.custom_pages.name": "Páginas Personalizadas",
+    "course-authoring.pages-resources.app.custom_pages.description": "Forneça conteúdo e recursos adicionais do curso com páginas personalizadas."
 }
