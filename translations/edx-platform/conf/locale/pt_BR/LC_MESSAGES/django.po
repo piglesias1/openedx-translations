@@ -2410,21 +2410,21 @@ msgid_plural ""
 "This password is too long. It must contain no more than %(max_length)d "
 "characters."
 msgstr[0] ""
-"Esta senha é muito longa. Ele não deve conter mais do que o caractere "
-"%(max_length)d ."
+"Esta senha é muito longa. Não deve conter mais do que %(max_length)d "
+"caractere."
 msgstr[1] ""
-"Esta senha é muito longa. Não deve conter mais do que caracteres "
-"%(max_length)d ."
+"Esta senha é muito longa. Não deve conter mais do que %(max_length)d "
+"caracteres."
 msgstr[2] ""
-"Esta senha é muito longa. Não deve conter mais do que caracteres "
-"%(max_length)d ."
+"Esta senha é muito longa. Não deve conter mais do que %(max_length)d "
+"caracteres."
 
 #: common/djangoapps/util/password_policy_validators.py:185
 #, python-format
 msgid "Your password must contain no more than %(max_length)d character."
 msgid_plural ""
 "Your password must contain no more than %(max_length)d characters."
-msgstr[0] "Sua senha não deve conter mais do que o caractere %(max_length)d ."
+msgstr[0] "Sua senha não deve conter mais do que %(max_length)d caractere."
 msgstr[1] "Sua senha não deve conter mais do que %(max_length)d caracteres."
 msgstr[2] "Sua senha não deve conter mais do que %(max_length)d caracteres."
 
@@ -2432,49 +2432,49 @@ msgstr[2] "Sua senha não deve conter mais do que %(max_length)d caracteres."
 #, python-format
 msgid "This password must contain at least %(min_alphabetic)d letter."
 msgid_plural "This password must contain at least %(min_alphabetic)d letters."
-msgstr[0] "Esta senha deve conter pelo menos a letra %(min_alphabetic)d ."
-msgstr[1] "Esta senha deve conter pelo menos letras %(min_alphabetic)d ."
-msgstr[2] "Esta senha deve conter pelo menos letras %(min_alphabetic)d ."
+msgstr[0] "Esta senha deve conter pelo menos %(min_alphabetic)d letra."
+msgstr[1] "Esta senha deve conter pelo menos %(min_alphabetic)d letras."
+msgstr[2] "Esta senha deve conter pelo menos %(min_alphabetic)d letras."
 
 #: common/djangoapps/util/password_policy_validators.py:223
 #, python-format
 msgid "Your password must contain at least %(min_alphabetic)d letter."
 msgid_plural "Your password must contain at least %(min_alphabetic)d letters."
-msgstr[0] "Sua senha deve conter pelo menos a letra %(min_alphabetic)d ."
-msgstr[1] "Sua senha deve conter pelo menos letras %(min_alphabetic)d ."
-msgstr[2] "Sua senha deve conter pelo menos letras %(min_alphabetic)d ."
+msgstr[0] "Sua senha deve conter pelo menos %(min_alphabetic)d letra."
+msgstr[1] "Sua senha deve conter pelo menos %(min_alphabetic)d letras."
+msgstr[2] "Sua senha deve conter pelo menos %(min_alphabetic)d letras."
 
 #: common/djangoapps/util/password_policy_validators.py:231
 #, python-format
 msgid "%(num)d letter"
 msgid_plural "%(num)d letters"
-msgstr[0] "carta %(num)d"
-msgstr[1] "letras %(num)d"
-msgstr[2] "letras %(num)d"
+msgstr[0] "%(num)d letra"
+msgstr[1] "%(num)d letras"
+msgstr[2] "%(num)d letras"
 
 #: common/djangoapps/util/password_policy_validators.py:261
 #, python-format
 msgid "This password must contain at least %(min_numeric)d number."
 msgid_plural "This password must contain at least %(min_numeric)d numbers."
-msgstr[0] "Esta senha deve conter pelo menos o número %(min_numeric)d ."
-msgstr[1] "Esta senha deve conter pelo menos números %(min_numeric)d ."
-msgstr[2] "Esta senha deve conter pelo menos números %(min_numeric)d ."
+msgstr[0] "Esta senha deve conter pelo menos %(min_numeric)d número."
+msgstr[1] "Esta senha deve conter pelo menos %(min_numeric)d números."
+msgstr[2] "Esta senha deve conter pelo menos %(min_numeric)d números."
 
 #: common/djangoapps/util/password_policy_validators.py:271
 #, python-format
 msgid "Your password must contain at least %(min_numeric)d number."
 msgid_plural "Your password must contain at least %(min_numeric)d numbers."
-msgstr[0] "Sua senha deve conter pelo menos o número %(min_numeric)d ."
-msgstr[1] "Sua senha deve conter pelo menos números %(min_numeric)d ."
-msgstr[2] "Sua senha deve conter pelo menos números %(min_numeric)d ."
+msgstr[0] "Sua senha deve conter pelo menos %(min_numeric)d número."
+msgstr[1] "Sua senha deve conter pelo menos %(min_numeric)d números."
+msgstr[2] "Sua senha deve conter pelo menos %(min_numeric)d números."
 
 #: common/djangoapps/util/password_policy_validators.py:279
 #, python-format
 msgid "%(num)d number"
 msgid_plural "%(num)d numbers"
-msgstr[0] "número %(num)d"
-msgstr[1] "números %(num)d"
-msgstr[2] "números %(num)d"
+msgstr[0] "%(num)d número"
+msgstr[1] "%(num)d números"
+msgstr[2] "%(num)d números"
 
 #: common/djangoapps/util/password_policy_validators.py:309
 #, python-format
@@ -2535,11 +2535,11 @@ msgid ""
 msgid_plural ""
 "This password must contain at least %(min_punctuation)d punctuation marks."
 msgstr[0] ""
-"Esta senha deve conter pelo menos o sinal de pontuação %(min_punctuation)d ."
+"Esta senha deve conter pelo menos %(min_punctuation)d sinal de pontuação."
 msgstr[1] ""
-"Esta senha deve conter pelo menos sinais de pontuação %(min_punctuation)d ."
+"Esta senha deve conter pelo menos %(min_punctuation)d sinais de pontuação."
 msgstr[2] ""
-"Esta senha deve conter pelo menos sinais de pontuação %(min_punctuation)d ."
+"Esta senha deve conter pelo menos %(min_punctuation)d sinais de pontuação."
 
 #: common/djangoapps/util/password_policy_validators.py:416
 #, python-format
@@ -2548,11 +2548,11 @@ msgid ""
 msgid_plural ""
 "Your password must contain at least %(min_punctuation)d punctuation marks."
 msgstr[0] ""
-"Sua senha deve conter pelo menos o sinal de pontuação %(min_punctuation)d ."
+"Sua senha deve conter pelo menos %(min_punctuation)d sinal de pontuação."
 msgstr[1] ""
-"Sua senha deve conter pelo menos sinais de pontuação %(min_punctuation)d ."
+"Sua senha deve conter pelo menos %(min_punctuation)d sinais de pontuação."
 msgstr[2] ""
-"Sua senha deve conter pelo menos sinais de pontuação %(min_punctuation)d ."
+"Sua senha deve conter pelo menos %(min_punctuation)d sinais de pontuação."
 
 #: common/djangoapps/util/password_policy_validators.py:424
 #, python-format
@@ -2566,25 +2566,25 @@ msgstr[2] "%(num)d sinais de pontuação"
 #, python-format
 msgid "This password must contain at least %(min_symbol)d symbol."
 msgid_plural "This password must contain at least %(min_symbol)d symbols."
-msgstr[0] "Esta senha deve conter pelo menos o símbolo %(min_symbol)d ."
-msgstr[1] "Esta senha deve conter pelo menos símbolos %(min_symbol)d ."
-msgstr[2] "Esta senha deve conter pelo menos símbolos %(min_symbol)d ."
+msgstr[0] "Esta senha deve conter pelo menos %(min_symbol)d símbolo."
+msgstr[1] "Esta senha deve conter pelo menos %(min_symbol)d símbolos."
+msgstr[2] "Esta senha deve conter pelo menos %(min_symbol)d símbolos."
 
 #: common/djangoapps/util/password_policy_validators.py:464
 #, python-format
 msgid "Your password must contain at least %(min_symbol)d symbol."
 msgid_plural "Your password must contain at least %(min_symbol)d symbols."
-msgstr[0] "Sua senha deve conter pelo menos o símbolo %(min_symbol)d ."
-msgstr[1] "Sua senha deve conter pelo menos símbolos %(min_symbol)d ."
-msgstr[2] "Sua senha deve conter pelo menos símbolos %(min_symbol)d ."
+msgstr[0] "Sua senha deve conter pelo menos %(min_symbol)d símbolo."
+msgstr[1] "Sua senha deve conter pelo menos %(min_symbol)d símbolos."
+msgstr[2] "Sua senha deve conter pelo menos %(min_symbol)d símbolos."
 
 #: common/djangoapps/util/password_policy_validators.py:472
 #, python-format
 msgid "%(num)d symbol"
 msgid_plural "%(num)d symbols"
-msgstr[0] "símbolo %(num)d"
-msgstr[1] "símbolos %(num)d"
-msgstr[2] "símbolos %(num)d"
+msgstr[0] "%(num)d símbolo"
+msgstr[1] "%(num)d símbolos"
+msgstr[2] "%(num)d símbolos"
 
 #: common/djangoapps/xblock_django/admin.py:22
 msgid ""
@@ -2697,7 +2697,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr "ative sua conta"
+msgstr "Ative sua conta"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
@@ -2725,7 +2725,7 @@ msgid ""
 "address."
 msgstr ""
 "Esta mensagem foi enviada automaticamente por %(lms_url)s porque alguém "
-"tentou criar uma conta em %(platform_name)susando este endereço de e-mail. "
+"tentou criar uma conta em %(platform_name)s usando este endereço de e-mail. "
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
@@ -2750,7 +2750,7 @@ msgstr ""
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
 #, python-format
 msgid "Action Required: Activate your %(platform_name)s account"
-msgstr "Ação requerida: Ative sua %(platform_name)s conta."
+msgstr "Ação requerida: Ative sua conta %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:10
 #: common/templates/student/edx_ace/accountrecovery/email/body.html:39
