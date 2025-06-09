@@ -2691,8 +2691,8 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"Você está quase lá! Use o link abaixo para ativar sua conta e acessar "
-"%(platform_name)s envolventes e de alta qualidade. Observe que você não "
+"Você está quase lá! Use o link abaixo para ativar sua conta e acessar cursos"
+" envolventes e de alta qualidade de %(platform_name)s. Observe que você não "
 "poderá fazer login novamente em sua conta até ativá-la."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
@@ -2735,8 +2735,8 @@ msgid ""
 "able to log back into your account until you have activated it."
 msgstr ""
 "Você está quase lá! Use o link abaixo para ativar sua conta para acessar "
-"cursos %(platform_name)s envolventes e de alta qualidade. Observe que você "
-"não poderá fazer login novamente em sua conta até ativá-la."
+"cursos envolventes e de alta qualidade de %(platform_name)s. Observe que "
+"você não poderá fazer login novamente em sua conta até ativá-la."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
 #, python-format
