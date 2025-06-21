@@ -130,9 +130,9 @@
 	<string name="discovery.discovery_enrolled_successfully">Você foi inscrito com sucesso neste curso.</string>
 	<string name="discovery.discovery_you_are_already_enrolled">Você já está matriculado neste curso.</string>
 	<plurals name="discovery.discovery_found_courses">
-        <item quantity="one">Curso %s encontrado em sua solicitação</item>
-        <item quantity="many">Cursos %s encontrados em sua solicitação</item>
-        <item quantity="other">Cursos %s encontrados em sua solicitação</item>
+        <item quantity="one">Encontrado %s curso em sua solicitação</item>
+        <item quantity="many">Encontrados %s cursos em sua solicitação</item>
+        <item quantity="other">Encontrados %s cursos em sua solicitação</item>
     </plurals>
 	<!-- Accessibility -->
 	<string name="discovery.discovery_accessibility_play_video">Reproduzir vídeo</string>
@@ -175,12 +175,12 @@
 	<string name="discussion.discussion_click_button_create_discussion">Clique no botão abaixo para criar sua primeira discussão.</string>
 	<string name="discussion.discussion_unnamed_subcategory">Subcategoria sem nome</string>
 	<plurals name="discussion.discussion_votes">
-        <item quantity="one">voto %1$d</item>
+        <item quantity="one">%1$d voto</item>
         <item quantity="many">%1$d votos</item>
         <item quantity="other">%1$d votos</item>
     </plurals>
 	<plurals name="discussion.discussion_comments">
-        <item quantity="one">Comentário %1$d</item>
+        <item quantity="one">%1$d Comentário</item>
         <item quantity="many">%1$d Comentários</item>
         <item quantity="other">%1$d Comentários</item>
     </plurals>
@@ -190,19 +190,19 @@
         <item quantity="other">%1$d Postagens perdidas</item>
     </plurals>
 	<plurals name="discussion.discussion_responses">
-        <item quantity="one">resposta %1$d</item>
-        <item quantity="many">respostas %1$d</item>
-        <item quantity="other">respostas %1$d</item>
+        <item quantity="one">%1$d resposta</item>
+        <item quantity="many">%1$d respostas</item>
+        <item quantity="other">%1$d respostas</item>
     </plurals>
 	<plurals name="discussion.discussion_responses_capitalized">
-        <item quantity="one">Resposta %1$d</item>
+        <item quantity="one">%1$d Resposta</item>
         <item quantity="many">%1$d Respostas</item>
         <item quantity="other">%1$d Respostas</item>
     </plurals>
 	<plurals name="discussion.discussion_found_threads">
-        <item quantity="one">Postagem %s encontrada</item>
-        <item quantity="many">Postagens %s encontradas</item>
-        <item quantity="other">Postagens %s encontradas</item>
+        <item quantity="one">Encontrada %s postagem</item>
+        <item quantity="many">Encontradas %s postagens</item>
+        <item quantity="other">Encontradas %s postagens</item>
     </plurals>
 
 	<string name="auth.auth_sign_up">Cadastrar-se</string>
@@ -210,7 +210,7 @@
 	<string name="auth.auth_email">E-mail</string>
 	<string name="auth.auth_invalid_email">E-mail inválido</string>
 	<string name="auth.auth_invalid_password">A senha é muito curta</string>
-	<string name="auth.auth_welcome_back">Bem vindo de volta! Faça login para acessar seus cursos.</string>
+	<string name="auth.auth_welcome_back">Bem-vindo de volta! Faça login para acessar seus cursos.</string>
 	<string name="auth.auth_show_optional_fields">Mostrar campos opcionais</string>
 	<string name="auth.auth_hide_optional_fields">Ocultar campos opcionais</string>
 	<string name="auth.auth_create_account">Criar uma conta</string>

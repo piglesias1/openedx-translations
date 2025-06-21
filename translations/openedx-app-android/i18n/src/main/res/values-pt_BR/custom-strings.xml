@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string name="app.app_navigation_discovery">Descubra Novos</string>
+
+    <string name="auth.pre_auth_title">Os melhores cursos disponíveis no seu bolso.</string>
+    <string name="auth.pre_auth_search_title">O que você quer aprender?</string>
+    <string name="auth.pre_auth_search_hint">Pesquise nossa biblioteca de cursos</string>
+    <string name="auth.pre_auth_explore_all_courses">Explorar todos os cursos</string>
+    <string name="auth.auth_email_username">E-mail ou Nome de usuário</string>
+    <string name="auth.auth_invalid_email_username">E-mail ou nome de usuário inválido</string>
+    <string name="auth.auth_example_email">usuario@dominio.com</string>
+    <string name="auth.auth_enter_email_username">Digite e-mail ou nome de usuário</string>
+    <string name="auth.auth_compete_registration">Complete seu cadastro</string>
+    <string name="auth.auth_google">Entrar com Google</string>
+    <string name="auth.auth_facebook">Entrar com Facebook</string>
+    <string name="auth.auth_microsoft">Entrar com Microsoft</string>
+    <string name="auth.auth_continue_google">Continuar com Google</string>
+    <string name="auth.auth_continue_facebook">Continuar com Facebook</string>
+    <string name="auth.auth_continue_microsoft">Continuar com Microsoft</string>
+    <string name="auth.auth_social_signed_title">Você entrou com sucesso usando %s.</string>
+    <string name="auth.auth_social_signed_desc">Precisamos apenas de algumas informações antes de você começar a estudar com %s.</string>
+    <string name="auth.auth_agreement_eula">Contrato de Licença do Usuário Final</string>
+    <string name="auth.auth_agreement_tos">Termos de Serviço e Código de Honra</string>
+    <string name="auth.auth_agreement_privacy">Política de Privacidade</string>
+    <string name="auth.auth_agreement_creating_account">Ao criar uma conta, você concorda com os %1$s e %2$s e reconhece que %3$s e cada Membro processam seus dados pessoais de acordo com a %4$s.</string>
+
+    <string name="core.core_cookie_policy">Política de cookies</string>
+    <string name="core.core_data_sell">Não vender minhas informações pessoais</string>
+    <string name="core.core_faq">Ver FAQ</string>
+    <string name="core.core_app_version">Versão do app: </string>
+    <string name="core.core_android_os_version">Versão do SO: </string>
+    <string name="core.core_android_device_model">Modelo do dispositivo: </string>
+    <string name="core.core_email_subject">Feedback</string>
+    <string name="core.core_try_again">Tentar Novamente</string>
+    <string name="core.core_something_went_wrong_description">Algo deu errado</string>
+    <string name="core.core_leaving_the_app">Saindo do aplicativo</string>
+    <string name="core.core_leaving_the_app_message">Você está saindo do aplicativo %s e abrindo um navegador.</string>
+    <string name="core.core_enrollment_error">Erro de Inscrição</string>
+    <string name="core.core_enrollment_error_message">Não foi possível inscrevê-lo neste curso no momento usando o aplicativo móvel %s. Tente novamente no seu navegador web.</string>
+    <string name="core.core_date_type_completed">Concluído</string>
+    <string name="core.core_date_type_past_due">Atrasado</string>
+    <string name="core.core_date_type_today">Hoje</string>
+    <string name="core.core_date_type_this_week">Esta Semana</string>
+    <string name="core.core_date_type_next_week">Próxima Semana</string>
+    <string name="core.core_date_type_upcoming">Próximos</string>
+    <string name="core.core_date_type_none">Nenhum</string>
+    <string name="core.core_date_format_assignment_due">Vence em %1$s</string>
+    <plurals name="core.core_date_items_hidden">
+        <item quantity="one">%d Item Oculto</item>
+        <item quantity="many">%d Itens Ocultos</item>
+        <item quantity="other">%d Itens Ocultos</item>
+    </plurals>
+    <string name="core.core_dates_reset_dates_banner_button">Alterar datas de entrega</string>
+    <string name="core.core_dates_reset_dates_banner_header">Perdeu alguns prazos?</string>
+    <string name="core.core_dates_reset_dates_banner_body">Não se preocupe - altere nosso cronograma sugerido para completar tarefas atrasadas sem perder nenhum progresso.</string>
+    <string name="core.core_dates_info_banner_body">Criamos um cronograma sugerido para ajudá-lo a se manter no caminho certo. Mas não se preocupe - é flexível para que você possa aprender no seu próprio ritmo. Se você ficar para trás, poderá ajustar as datas para se manter no caminho certo.</string>
+    <string name="core.core_dates_upgrade_to_graded_banner_body">Para completar tarefas avaliadas como parte deste curso, você pode fazer upgrade hoje.</string>
+    <string name="core.core_dates_upgrade_to_reset_banner_body">Você está auditando este curso, o que significa que não pode participar de tarefas avaliadas. Parece que você perdeu alguns prazos importantes baseado no nosso cronograma sugerido. Para completar tarefas avaliadas como parte deste curso e mover as tarefas atrasadas para o futuro, você pode fazer upgrade hoje.</string>
+    <string name="core.core_dates_shift_dates_successfully_title">Datas de Entrega Alteradas</string>
+    <string name="core.core_dates_shift_dates_successfully_msg">Suas datas de entrega foram alteradas com sucesso para ajudá-lo a se manter no caminho certo.</string>
+    <string name="core.core_dates_shift_dates_unsuccessful_msg">Suas datas não puderam ser alteradas. Tente novamente.</string>
+    <string name="core.core_dates_view_all_dates"><u>Ver Todas as Datas</u></string>
+    <string name="core.core_assignment_due_tag">Entrega de Tarefa</string>
+    <string name="core.core_title_syncing_calendar">Sincronizando calendário…</string>
+    <string name="core.core_header_sync_to_calendar">Sincronizar com calendário</string>
+    <string name="core.core_body_sync_to_calendar">Sincronize automaticamente todos os prazos e datas de entrega deste curso com seu calendário.</string>
+    <string name="core.core_title_request_calendar_permission">\"%s\" Gostaria de Acessar Seu Calendário</string>
+    <string name="core.core_message_request_calendar_permission">%s gostaria de usar sua lista de calendários para se inscrever no seu calendário personalizado %s para este curso.</string>
+    <string name="core.core_label_do_not_allow">Não permitir</string>
+    <string name="core.core_title_add_course_calendar">Adicionar Datas do Curso ao Calendário</string>
+    <string name="core.core_message_add_course_calendar">Gostaria de adicionar as datas de \"%s\" ao seu calendário? \n\nVocê pode editar ou remover as datas do curso a qualquer momento do seu calendário ou configurações.</string>
+    <string name="core.core_message_course_calendar_added">\"%s\" foi adicionado ao calendário do seu telefone.</string>
+    <string name="core.core_label_view_events">Ver Eventos</string>
+    <string name="core.core_label_done">Concluído</string>
+    <string name="core.core_title_remove_course_calendar">Remover Datas do Curso do Calendário</string>
+    <string name="core.core_message_remove_course_calendar">Gostaria de remover as datas de \"%s\" do seu calendário?</string>
+    <string name="core.core_label_remove">Remover</string>
+    <string name="core.core_title_calendar_out_of_date">Seu calendário do curso está desatualizado</string>
+    <string name="core.core_message_calendar_out_of_date">As datas do seu curso foram alteradas e seu calendário do curso não está mais atualizado com seu novo cronograma.</string>
+    <string name="core.core_label_update_now">Atualizar Agora</string>
+    <string name="core.core_label_remove_course_calendar">Remover Calendário do Curso</string>
+    <string name="core.core_snackbar_course_calendar_added">Seu calendário do curso foi adicionado.</string>
+    <string name="core.core_snackbar_course_calendar_removed">Seu calendário do curso foi removido.</string>
+    <string name="core.core_snackbar_course_calendar_updated">Seu calendário do curso foi atualizado.</string>
+    <string name="core.core_snackbar_course_calendar_error">Erro ao Adicionar Calendário, Tente mais tarde</string>
+    <string name="core.core_course_container_nav_dates">Datas</string>
+    <string name="core.core_no_course_content">Nenhum conteúdo do curso está disponível no momento.</string>
+    <string name="core.core_no_videos">Não há vídeos disponíveis para este curso no momento.</string>
+    <string name="core.core_no_dates">As datas do curso não estão disponíveis no momento.</string>
+    <string name="core.core_no_discussion">Não foi possível carregar as discussões.\n Tente novamente mais tarde.</string>
+    <string name="core.core_no_handouts">Não há materiais disponíveis para este curso no momento.</string>
+    <string name="core.core_no_announcements">Não há anúncios disponíveis para este curso no momento.</string>
+
+    <string name="course.course_dates_unavailable_message">As datas do curso não estão disponíveis no momento.</string>
+    <plurals name="course.course_assignments_complete">
+        <item quantity="one">%1$s de %2$s tarefa concluída</item>
+        <item quantity="many">%1$s de %2$s tarefas concluídas</item>
+        <item quantity="other">%1$s de %2$s tarefas concluídas</item>
+    </plurals>
+    <string name="course.course_label_back">Voltar</string>
+    <string name="course.course_error_expired_not_upgradeable_title" formatted="false">Seu acesso gratuito de auditoria a este curso expirou em %s.</string>
+    <string name="course.course_find_new_course_button">Encontrar um novo curso</string>
+    <string name="course.course_error_not_started_title">Este curso começará em %s. Volte então para começar a aprender!</string>
+    <string name="course.course_an_error_occurred">Ocorreu um erro ao carregar seu curso</string>
+    <string name="course.course_delete_in_process_confirmation" formatted="false">Desligar o botão interromperá o download e excluirá todos os vídeos para \"%s\"?</string>
+    <string name="course.course_delete_confirmation" formatted="false">Tem certeza que deseja excluir todos os vídeos para \"%s\"?</string>
+
+    <string name="dashboard.dashboard_pull_to_refresh">Deslize para baixo para atualizar</string>
+
+    <string name="discovery.discovery_explore_the_catalog">Explorar o catálogo</string>
+    <string name="discovery.discovery_programs">Programas</string>
+</resources>
