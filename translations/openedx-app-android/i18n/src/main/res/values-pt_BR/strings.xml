@@ -117,7 +117,7 @@
         <item quantity="other">%1$d Tarefas vencidas</item>
     </plurals>
 
-	<string name="discovery.discovery_Discovery">Discover</string>
+	<string name="discovery.discovery_Discovery">Explorar Cursos</string>
 	<string name="discovery.discovery_discovery_new">Descubra novos</string>
 	<string name="discovery.discovery_lets_find">Vamos encontrar algo novo para você</string>
 	<string name="discovery.discovery_search_results">Procurar Resultados</string>
@@ -311,7 +311,7 @@
 	<string name="app.action_settings">Configurações</string>
 	<string name="app.next">Próximo</string>
 	<string name="app.previous">Anterior</string>
-	<string name="app.app_navigation_discovery">Discover</string>
+	<string name="app.app_navigation_discovery">Descubra Novos</string>
 	<string name="app.app_navigation_learn">Aprender</string>
 	<string name="app.app_navigation_programs">Programas</string>
 	<string name="app.app_navigation_profile">Perfil</string>
