@@ -90,7 +90,7 @@
 	<string name="course.course_cancel_course_download">Cancelar Download do Curso</string>
 	<string name="course.course_not_available_offline">Este componente ainda não está disponível offline</string>
 	<string name="course.course_explore_other_parts_when_reconnect">Explore outras partes deste curso ou visualize isto quando se reconectar.</string>
-	<string name="course.course_not_downloaded">Este componente não é baixado</string>
+	<string name="course.course_not_downloaded">Este componente não está baixado</string>
 	<string name="course.course_explore_other_parts_when_reconnect_or_download">Explore outras partes deste curso ou baixe-o quando se reconectar.</string>
 
 	<string name="dashboard.dashboard_courses">Cursos</string>
@@ -390,7 +390,7 @@
 	<string name="core.core_video_download_to_device">Baixar para o dispositivo</string>
 	<string name="core.core_video_downloading_to_device">Baixando vídeos…</string>
 	<string name="core.core_video_downloaded_to_device">Todos os vídeos baixados</string>
-	<string name="core.core_video_remaining_to_download" formatted="false">Restante %d , %s Total</string>
+	<string name="core.core_video_remaining_to_download" formatted="false">Restante %d, %s Total</string>
 	<string name="core.core_video_downloaded_subtitle" formatted="false">Vídeos %d , %s Total</string>
 	<string name="core.core_video_streaming_quality">Qualidade de streaming de vídeo</string>
 	<string name="core.core_video_download_quality">Qualidade de download de vídeo</string>
