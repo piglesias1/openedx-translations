@@ -6,6 +6,7 @@
 # 
 # Translators:
 # Brian Smith, 2025
+# Cátia Lopes <catia.lopes@bridgelk.com>, 2025
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-09 08:22-0500\n"
 "PO-Revision-Date: 2024-12-18 13:43+0000\n"
-"Last-Translator: Brian Smith, 2025\n"
+"Last-Translator: Cátia Lopes <catia.lopes@bridgelk.com>, 2025\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/open-edx/teams/6205/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -694,6 +695,10 @@ msgstr "Configuração de Prazos"
 #: templates/legacy/edit/oa_edit_schedule.html:9
 msgid "Select a deadline configuration option"
 msgstr "Selecione uma opção de configuração de prazo"
+
+#: templates/legacy/edit/oa_edit_schedule.html:13
+msgid " NEW"
+msgstr " NOVO"
 
 #: templates/legacy/edit/oa_edit_schedule.html:19
 msgid "Configure deadlines manually"
@@ -2055,7 +2060,7 @@ msgstr "Visualizar Estatísticas de Tarefa"
 
 #: templates/legacy/staff_area/oa_staff_area.html:22
 msgid "Demo the new Grading Experience"
-msgstr "Demonstrar a nova experiência de classificação"
+msgstr "Demonstrar a nova Experiência de Avaliação"
 
 #: templates/legacy/staff_area/oa_staff_area.html:26
 msgid "View ORA in Studio"
