@@ -670,7 +670,7 @@
     "course-authoring.pages-resources.app.textbooks.name": "Livros Didáticos",
     "course-authoring.pages-resources.app.textbooks.description": "Crie e gerencie uma biblioteca de leituras, livros didáticos e capítulos do curso.",
     "course-authoring.pages-resources.app.custom_pages.name": "Páginas Personalizadas",
-    "course-authoring.pages-resources.app.custom_pages.description": "Forneça conteúdo e recursos adicionais do curso com páginas personalizadas."
+    "course-authoring.pages-resources.app.custom_pages.description": "Forneça conteúdo e recursos adicionais do curso com páginas personalizadas.",
     "course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-end": "Ocultar conteúdo após a data de término",
     "course-authoring.course-outline.configure-modal.visibility-tab.hide-content-after-end-description": "Após a data de término do curso, os alunos não poderão mais acessar seu conteúdo. A subseção não é incluída nos cálculos de notas."
 }
