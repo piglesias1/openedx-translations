@@ -900,7 +900,7 @@
   "course-authoring.grading-settings.assignment.total-number.title": "Número total",
   "course-authoring.grading-settings.assignment.total-number.description": "O número de subsecções no curso que contêm problemas deste tipo de atribuição.",
   "course-authoring.grading-settings.assignment.total-number.error.message": "Insira um número inteiro maior do que 0.",
-  "course-authoring.grading-settings.assignment.number-of-droppable.title": "Número de itens dropáveis",
+  "course-authoring.grading-settings.assignment.number-of-droppable.title": "Número de itens descartáveis",
   "course-authoring.grading-settings.assignment.number-of-droppable.description": "O número de atribuições deste tipo que serão descartados. Os menores atribuições de pontuação são descartados em primeiro lugar.",
   "course-authoring.grading-settings.assignment.number-of-droppable.error.message": "Insira um número inteiro não negativo.",
   "course-authoring.grading-settings.assignment.number-of-droppable.second.error.message": "Não é possível descartar mais atribuições {type} do que as atribuídas.",

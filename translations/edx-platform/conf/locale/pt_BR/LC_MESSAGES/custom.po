@@ -229,3 +229,6 @@ msgstr "Somente Avaliação da Equipe"
 
 msgid "Course Summary"
 msgstr "Resumo do Curso"
+
+msgid "This is to certify that"
+msgstr "Certificamos que"
