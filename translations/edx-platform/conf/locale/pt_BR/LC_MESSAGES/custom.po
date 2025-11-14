@@ -232,3 +232,25 @@ msgstr "Resumo do Curso"
 
 msgid "This is to certify that"
 msgstr "Certificamos que"
+
+msgid "Certificate Information"
+msgstr "Informações do Certificado"
+
+msgid "Certification Company"
+msgstr "Empresa Certificadora"
+
+msgid "Programme Content"
+msgstr "Conteúdo Programático"
+
+msgid "Completion Date"
+msgstr "Data de Conclusão"
+
+msgid "{periodicity} year"
+msgid_plural "{periodicity} years"
+msgstr[0] "{periodicity} ano"
+msgstr[1] "{periodicity} anos"
+msgstr[2] "{periodicity} anos"
+
+msgid "Signature of {username}"
+msgstr "Assinatura de {username}"
+
