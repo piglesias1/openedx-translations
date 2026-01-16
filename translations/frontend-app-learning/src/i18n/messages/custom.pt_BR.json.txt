@@ -349,7 +349,7 @@
     "tours.button.beginTour": "Iniciar tour",
     "tours.button.launchTour": "Lançar tour",
     "tours.button.skipForNow": "Pular por enquanto",
-    "tours.newUserModal.body": "Vamos fazer um tour rápido do {siteName} para que você possa aproveitar ao máximo seu curso.",
-    "tours.newUserModal.title.welcome": "Bem-vindo ao seu",
+    "tours.newUserModal.body": "Vamos fazer um tour rápido em {siteName} para que você possa aproveitar ao máximo seu curso.",
+    "tours.newUserModal.title.welcome": "Bem-vindo",
     "tray.close.button": "Fechar painel"
 }

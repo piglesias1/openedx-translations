@@ -1,3 +1,14 @@
 {
-    "learner-dash.emailSettings.nevermind": "Cancelar"
+    "learner-dash.emailSettings.nevermind": "Cancelar",
+    "learner-dash.unenrollConfirm.confirm.cancel": "Manter-me inscrito",
+    "learner-dash.unenrollConfirm.reasons.prereqs": "Não tenho os pré-requisitos acadêmicos ou linguísticos.",
+    "learner-dash.unenrollConfirm.reasons.difficulty": "O material do curso era muito difícil.",
+    "learner-dash.unenrollConfirm.reasons.goals": "Isso não vai me ajudar a alcançar meus objetivos.",
+    "learner-dash.unenrollConfirm.reasons.broken": "Algo estava quebrado no curso.",
+    "learner-dash.unenrollConfirm.reasons.time": "Não tenho tempo suficiente.",
+    "learner-dash.unenrollConfirm.reasons.browse": "Apenas queria navegar pelo material.",
+    "learner-dash.unenrollConfirm.reasons.support": "Não tenho suporte suficiente.",
+    "learner-dash.unenrollConfirm.reasons.quality": "Não estou satisfeito com a qualidade do conteúdo.",
+    "learner-dash.unenrollConfirm.reasons.easy": "O material do curso era muito fácil.",
+    "learner-dash.unenrollConfirm.reasons.custom-placeholder": "Outro (por favor, especifique)"
 }
